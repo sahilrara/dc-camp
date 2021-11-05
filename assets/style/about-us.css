@@ -1,3 +1,14 @@
+/* BG-IMG-HERO-SECTION START */
+
+
+.bg-about-hero-img {
+    background-image: url("../img/png/about-us-hero-img.png");
+    height: 37vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* BG-IMG-HERO-SECTION END */
 /* CARDS CLASS START */
 .cards-shadow-hover {
     transition: all 0.4s ease-in-out;
@@ -12,12 +23,47 @@
 /* CARDS CLASS END */
 
 /* MARGIN AND PADDING CLASS START */
+.mt-91 {
+    margin-top: 91px;
+}
+
 .mt-103 {
     margin-top: 103px;
 }
 
-.mb-103 {
-    margin-bottom: 103px;
+.mb-197 {
+    margin-bottom: 197px;
 }
 
 /* MARGIN AND PADDING CLASS END */
+
+/* MEDIAQURIES START */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .bg-about-hero-img {
+        height: 40vh;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .bg-about-hero-img {
+        height: 40vh;
+        background-size: unset !important;
+    }
+
+    .mt-sm-51 {
+        margin-top: 51px;
+    }
+
+    .mt-sm-63 {
+        margin-top: 63px;
+    }
+
+    .mb-sm-100 {
+        margin-bottom: 100px;
+    }
+
+}
+
+/* MEDIAQURIES END */
