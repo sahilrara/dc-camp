@@ -1,0 +1,21 @@
+@import url(./style.css);
+
+.para-color {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.mw-473 {
+    max-width: 473px;
+}
+
+.footer-section ul li:hover a.para-color {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.footer-section ul li:hover a svg path {
+    opacity: 1;
+}
+
+.foot-line {
+    border-top: 1px solid rgba(255, 255, 255, 0.36);
+}
