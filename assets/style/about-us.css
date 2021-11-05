@@ -48,7 +48,7 @@
 @media (max-width: 576px) {
 
     .bg-about-hero-img {
-        height: 40vh;
+        height: 22vh;
         background-size: unset !important;
     }
 
