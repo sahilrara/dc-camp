@@ -19,6 +19,7 @@ body {
     --font-14: 14px;
     --font-15: 15px;
     --font-16: 16px;
+    --font-18: 18px;
     --font-20: 20px;
     --font-35: 35px;
     --font-48: 48px;
@@ -39,6 +40,7 @@ body {
         --font-14: 13px;
         --font-15: 14px;
         --font-16: 15px;
+        --font-18: 16px;
         --font-20: 19px;
         --font-35: 24px;
         --font-48: 30px;
@@ -50,6 +52,7 @@ body {
         --font-14: 12px;
         --font-15: 13px;
         --font-16: 14px;
+        --font-18: 15px;
         --font-20: 18px;
         --font-35: 23px;
         --font-48: 28px;
@@ -71,6 +74,10 @@ body {
 
 .fs-16 {
     font-size: var(--font-16);
+}
+
+.fs-18 {
+    font-size: var(--font-18);
 }
 
 .fs-20 {
