@@ -358,6 +358,12 @@ input:focus {
     background: var(--color-white);
 }
 
+.active-red-btn {
+    border: 1px solid var(--color-red) !important;
+    color: var(--color-red) !important;
+}
+
+
 .border-red-btn:hover {
     border: 1px solid var(--color-red);
     border-radius: 16px;
