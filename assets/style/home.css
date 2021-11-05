@@ -402,3 +402,38 @@ input:focus {
     font-size: var(--font-16);
     font-weight: 400;
 }
+
+.rotate-direction-180 {
+    transform: rotate(180deg);
+}
+
+
+
+.active-pagnation-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    padding: 10px 18px;
+    font-family: "Poppins";
+    border-radius: 50%;
+}
+
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.pagenation-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-black);
+    font-family: "Poppins";
+}
+
+.copyright-text {
+    color: var(--color-black);
+    opacity: .5;
+    font-size: var(--font-15);
+    font-family: "Poppins";
+}
