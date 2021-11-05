@@ -1,0 +1,90 @@
+.gmp-responsive-map {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.gmp {
+    height: 526px;
+}
+
+.gmp-responsive-map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/* 2nd map css  */
+
+.anlongveng-responsive-map {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.anlongveng-responsive-map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.anlongveng {
+    height: 541px;
+}
+
+/* 3rd map css */
+
+
+
+.queen-responsive-map {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.queen-responsive-map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.queen {
+    height: 436px;
+}
+
+/* 4th map css */
+
+
+
+.outreach-responsive-map {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.outreach-responsive-map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.outreach {
+    height: 556px;
+}
+
+.footer-space {
+    margin-top: 100px;
+}
