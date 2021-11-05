@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+
+.ff-press {
+    font-family: 'Source Sans Pro',
+        sans-serif;
+    ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+:root {
+    /* =============================FONT-SIZE============================= */
+    --font-14: 14px;
+    --font-15: 15px;
+    --font-16: 16px;
+    --font-20: 20px;
+    --font-35: 35px;
+    --font-48: 48px;
+    /* ========================================COLOR======================================== */
+    --color-black: #000000;
+    --color-light-black: #4D4D4D;
+    --color-light-black-07: #BCBBB9;
+    --color-white: #ffffff;
+    --color-red: #C2190E;
+
+}
+
+
+/* Media-queries-start */
+
+@media (max-width:992px) {
+    :root {
+        --font-14: 13px;
+        --font-15: 14px;
+        --font-16: 15px;
+        --font-20: 19px;
+        --font-35: 24px;
+        --font-48: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        --font-14: 12px;
+        --font-15: 13px;
+        --font-16: 14px;
+        --font-20: 18px;
+        --font-35: 23px;
+        --font-48: 28px;
+    }
+
+}
+
+/* Media-queries-end */
+/*===================== font-size===================== */
+
+/*====================== FONT SIZE CLASS START====================== */
+.fs-14 {
+    font-size: var(--font-14);
+}
+
+.fs-15 {
+    font-size: var(--font-15);
+}
+
+.fs-16 {
+    font-size: var(--font-16);
+}
+
+.fs-20 {
+    font-size: var(--font-20);
+}
+
+.fs-35 {
+    font-size: var(--font-35);
+}
+
+.fs-48 {
+    font-size: var(--font-48);
+}
+
+/*====================== FONT SIZE CLASS END====================== */
+
+/*====================== FONT-weight SIZE CLASS START====================== */
+.fw-mormal {
+    font-weight: 400;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-semibold {
+    font-weight: 600 !important;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+/*====================== FONT-weight SIZE CLASS END====================== */
+
+
+/*====================== COLOR  CLASS START====================== */
+
+
+.text-white {
+    color: var(--color-white) !important;
+}
+
+.text-black {
+    color: var(--color-black) !important;
+}
+
+.text-light-black {
+    color: var(--color-light-black) !important;
+}
+
+.text-light-black-07 {
+    color: var(--color-light-black-07) !important;
+}
+
+.bg-color-black {
+    background-color: var(--color-black) !important;
+}
+
+.bg-color-white {
+    background-color: var(--color-white) !important;
+}
+
+.bg-color-red {
+    background-color: var(--color-red) !important;
+}
+
+
+
+/*====================== COLOR  CLASS END====================== */
+
+/*====================== COMMON TEXT CLASS START====================== */
