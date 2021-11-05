@@ -1,0 +1,21 @@
+@import url(./style.css);
+
+.document {
+    background: var(--color-FAFAFA);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    border-radius: 20px;
+    /* max-width: 471px; */
+    padding: 29px 25px 34px 17px;
+}
+
+.color-opacity-7 {
+    color: #000000;
+    opacity: 0.7;
+}
+
+.info p {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    justify-content: space-between;
+    display: flex;
+}
