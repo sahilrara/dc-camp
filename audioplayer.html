@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./assets/style/audioplayer.css" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-12 col-lg-3">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+            reprehenderit eligendi eveniet odit cum quae vitae sit accusamus
+            temporibus perspiciatis repudiandae corporis similique omnis veniam
+            quasi asperiores facilis cumque, commodi quod laboriosam autem nulla
+            quisquam, ad in. In doloremque non quae? Consequuntur beatae animi
+            temporibus dicta nam deleniti neque perferendis soluta commodi, quo
+            sed. Quasi ipsa laudantium commodi sunt delectus officiis nesciunt
+            ex quibusdam numquam id nihil modi in corrupti corporis quia alias
+            consequuntur inventore nobis consequatur, sint soluta. Dolorem
+            possimus, quasi iusto eius explicabo repellendus temporibus rem
+            nihil. Non quia magni repudiandae repellendus eos labore repellat
+            quo error molestiae?
+          </p>
+        </div>
+
+        <div class="col-12 col-lg-9">
+          <!-- ROW -->
+          <div class="d-flex justify-content-between mb-3 mb-sm-4">
+            <!-- AUDIO DOCUMENT WRAPPER -->
+            <div class="audio-document-card">
+              <div class="d-flex">
+                <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                <div class="form-parent ms-3 mt-3">
+                  <p
+                    class="border-bottom-1-grey d-flex justify-content-between"
+                  >
+                    <span class="bold-black-text"> Name: </span>
+                    <span class="para"> Sokh </span>
+                  </p>
+                  <p
+                    class="border-bottom-1-grey d-flex justify-content-between"
+                  >
+                    <span class="bold-black-text"> Title: </span>
+                    <span class="para"> 100816 </span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="position-relative w-100 d-flex flex-column">
+                <div class="player">
+                  <div id="progressbar">
+                    <div class="knob" id="knob1"></div>
+                    <div class="range" id="range"></div>
+                  </div>
+
+                  <button id="pButton">
+                    <i class="playbutton fas fa-pause"></i>
+                  </button>
+                  <button id="mButton">
+                    <i class="soundbutton fas fa-volume-up"></i>
+                  </button>
+                  <div id="volume-bar">
+                    <div class="knob2" id="knob2"></div>
+                    <div class="range2" id="range2"></div>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between w-475">
+                  <p id="start-time" class="time mb-0"></p>
+
+                  <p id="duration" class="time mb-0">00:00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/utils/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script src="./js/audioplayer.js"></script>
+  </body>
+</html>
