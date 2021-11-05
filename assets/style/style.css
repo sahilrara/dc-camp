@@ -150,3 +150,53 @@ body {
 /*====================== COLOR  CLASS END====================== */
 
 /*====================== COMMON TEXT CLASS START====================== */
+.main-heading {
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: var(--font-48);
+    color: var(--color-white);
+}
+
+.heading {
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: var(--font-35);
+    color: var(--color-white);
+}
+
+.sub-heading {
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: var(--font-20);
+    color: var(--color-white);
+}
+
+.main-para {
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: var(--font-18);
+    color: var(--color-white);
+}
+
+.para {
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: var(--font-16);
+    color: var(--color-light-black-07);
+}
+
+.sub-para {
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: var(--font-15);
+    color: var(--color-white);
+}
+
+.extra-small-text {
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: var(--font-14);
+    color: var(--color-white);
+}
+
+/*====================== COMMON TEXT CLASS START====================== */
