@@ -1,17 +1,24 @@
 @import url(./style.css);
 
+* {
+    transition: all 200ms linear;
+}
+
 .document {
-    background: var(--color-FAFAFA);
+    background: white;
     border: 1px solid rgba(0, 0, 0, 0.15);
     box-sizing: border-box;
     border-radius: 20px;
     /* max-width: 471px; */
-    padding: 29px 25px 34px 17px;
+    padding: 29px 25px 32px 17px;
 }
 
 .color-opacity-7 {
-    color: #000000;
-    opacity: 0.7;
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.red-color-opacity-7 {
+    color: rgb(194, 25, 14, .7) !important;
 }
 
 .info p {
