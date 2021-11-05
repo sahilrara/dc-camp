@@ -25,13 +25,13 @@
 }
 
 /* MARGIN AND PADDING CLASS END */
-@media (max-width:575.98px) {
+@media (max-width:576px) {
     .bg-color-photos-section {
         width: 100%;
     }
 
     .bg-photos-hero-img {
-        height: 40vh;
+        height: 22vh;
         background-size: unset !important;
     }
 }
