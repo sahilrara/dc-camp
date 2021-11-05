@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./assets/style/style.css">
     <link rel="stylesheet" href="./assets/style/home.css">
 
-    <title>Dc-camp</title>
+    <title>PAB</title>
 </head>
 
 <body>
@@ -87,7 +87,7 @@
                 adipiscing
                 elit.
             </p>
-            <p class="main-para text-white"><span class="fw-normal">HOME</span> > CBIO</p>
+            <p class="main-para text-white"><span class="fw-normal">HOME</span> > PAB </p>
         </div>
     </section>
 
@@ -128,97 +128,19 @@
                                 <option>Female</option>
                                 <option>Not Clear</option>
                             </select>
-                            <!-- range starts from Here -->
-                            <p class="mb-0 mt-4 age-text-style"> Age</p>
-                            <div class="range-wrapper">
-                                <div slider id="slider-distance">
-                                    <div>
-                                        <div inverse-left style="width:70%;"></div>
-                                        <div inverse-right style="width:70%;"></div>
-                                        <div range style="left:0%;right:40%;"></div>
-                                        <span thumb style="left:0%;"></span>
-                                        <span thumb style="left:60%;"></span>
-                                        <div sign style="left:0%;">
-                                            <span id="value">0</span>
-                                        </div>
-                                        <div sign style="left:60%;">
-                                            <span id="value">60</span>
-                                        </div>
-                                    </div>
-                                    <input type="range" tabindex="0" value="0" max="100" min="0" step="1" oninput="
-  this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
-  var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
-  var children = this.parentNode.childNodes[1].childNodes;
-  children[1].style.width=value+'%';
-  children[5].style.left=value+'%';
-  children[7].style.left=value+'%';children[11].style.left=value+'%';
-  children[11].childNodes[1].innerHTML=this.value;" />
-                                    <input type="range" tabindex="0" value="60" max="100" min="0" step="1" oninput="
-  this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
-  var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
-  var children = this.parentNode.childNodes[1].childNodes;
-  children[3].style.width=(100-value)+'%';
-  children[5].style.right=(100-value)+'%';
-  children[9].style.left=value+'%';children[13].style.left=value+'%';
-  children[13].childNodes[1].innerHTML=this.value;" />
-                                </div>
-                                <p class="d-flex px-2 justify-content-between">
-                                    <span>0</span>
-                                    <span>25</span>
-                                    <span>50</span>
-                                    <span>75</span>
-                                    <span>100</span>
-                                </p>
-                            </div>
-
-                            <!-- ends here -->
-
-                            <select class="form-select mt-4 select-text py-2  " aria-label="Default select example">
-                                <option selected>Include Unknown Age</option>
-                            </select>
-                            <select class="form-select mt-2 select-text py-2 " aria-label="Default select example">
-                                <option selected>Ethnicity</option>
-                            </select>
-                            <input type="email" class="form-control placeholder-input-text py-2 my-2 "
-                                placeholder="Birth Place" id="exampleInputEmail1" aria-describedby="emailHelp">
-
-
-                            <div class="datepicker-input position-relative">
+                            <div class="datepicker-input mt-2 position-relative">
                                 <input type="text" class="w-100 border-eoeoeo placeholder-input-text px-3 br-5 py-2 "
                                     placeholder="Birth Date" id="datepicker" />
                                 <img class="bucket-icon" src="./assets/img/png/bx_bx-calendar.png" alt="" />
                             </div>
-
-
-                            <div class="datepicker-input position-relative">
-                                <input type="text"
-                                    class="w-100 border-eoeoeo placeholder-input-text mt-2 px-3 br-5 py-2 position-relative"
-                                    placeholder="Death Date" id="datepicker2" />
-                                <img class="bucket-icon2" src="./assets/img/png/bx_bx-calendar.png" alt="" />
-                            </div>
-
-                            <input type="email" class="form-control placeholder-input-text my-2 py-2 "
-                                placeholder="Place of Arrest" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <input type="email" class="form-control placeholder-input-text my-2 py-2 "
-                                placeholder="Pre-KR Education" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <input type="email" class="form-control placeholder-input-text my-2 py-2 "
-                                placeholder="Pre-KR Occupation" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <select class="form-select mt-2 select-text py-2  " aria-label="Default select example">
-                                <option selected>KR Organization Type</option>
-                                <option>Military </option>
-                                <option>Administrative</option>
-                                <option>Collective (or Cooperative)</option>
-                                <option>Factory</option>
-                                <option>Political</option>
-                                <option>Other</option>
-                            </select>
                             <input type="email" class="form-control placeholder-input-text my-2 py-2 "
                                 placeholder="KR Organization Unit" id="exampleInputEmail1" aria-describedby="emailHelp">
                             <select class="form-select mt-2 select-text py-2 " aria-label="Default select example">
                                 <option selected>Access Level</option>
                             </select>
                         </div>
-                        <div class="d-flex mt-4 pt-5 justify-content-between ">
+                        <div class="pt-sm-5 mt-sm-3"></div>
+                        <div class="d-flex mt-5 pt-5 justify-content-between ">
                             <button class="btn w-100 sign-in_btn">
                                 <img src="./assets/img/png/white-searchicon.png" alt=""> Search
                             </button>
@@ -231,12 +153,11 @@
                 </div>
                 <div class="col-xl-9 col-12">
                     <div class="d-flex flex-sm-row flex-column">
-
-                        <button class="border-red-btn active-red-btn px-3">CBIO</button>
-                        <a href="./PAB.html">
-                            <button class="border-red-btn my-3 my-sm-0 mx-sm-2 px-3">PAB</button>
+                        <a href="./index.html">
+                            <button class="border-red-btn  px-3">CBIO</button>
                         </a>
 
+                        <button class="border-red-btn active-red-btn my-3 my-sm-0 mx-sm-2 px-3">PAB</button>
                         <button class="border-red-btn  px-3">VOT</button>
                         <button class="border-red-btn my-3 my-sm-0 mx-sm-2 px-3">VPA</button>
                         <button class="border-red-btn  px-3">CBIB</button>
@@ -245,12 +166,12 @@
                         <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
                             <div class="d-flex flex-column flex-sm-row">
                                 <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
+                                    <img class="" src="./assets/img/png/dc-cam.png" alt="dccam">
                                 </div>
-                                <div class="dc-cam-form ms-sm-3 w-100 ">
+                                <div class="dc-cam-form ms-sm-3  w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
+                                        <span class="form-small-text">N/A</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span span class="black-bold-text">ID:</span>
@@ -258,6 +179,10 @@
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span span class="black-bold-text">Alias:</span>
+                                        <span class="form-small-text">Mam Bo</span>
+                                    </p>
+                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
+                                        <span span class="black-bold-text">Status:</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
 
@@ -275,24 +200,26 @@
                         <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
                             <div class="d-flex flex-column flex-sm-row">
                                 <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
+                                    <img class="" src="./assets/img/png/dc-cam.png" alt="dccam">
                                 </div>
                                 <div class="dc-cam-form ms-sm-3 w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
+                                        <span class="black-bold-text">Director:</span>
+                                        <span class="form-small-text">N/A</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">ID:</span>
+                                        <span span class="black-bold-text">Record No:</span>
                                         <span class="form-small-text">100816</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">Alias:</span>
+                                        <span span class="black-bold-text">Title</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
-
+                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
+                                        <span span class="black-bold-text">Producer:</span>
+                                        <span class="form-small-text">Mam Bo</span>
+                                    </p>
                                 </div>
-
                             </div>
                             <p class="form-small-text mt-3">Gender: Male nationality:Khmer ,height:m, age:31 years
                                 old,date of
@@ -307,12 +234,12 @@
                         <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
                             <div class="d-flex flex-column flex-sm-row">
                                 <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
+                                    <img class="" src="./assets/img/png/dc-cam.png" alt="dccam">
                                 </div>
-                                <div class="dc-cam-form ms-sm-3 w-100 ">
+                                <div class="dc-cam-form ms-sm-3  w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
+                                        <span class="form-small-text">N/A</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span span class="black-bold-text">ID:</span>
@@ -320,6 +247,10 @@
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span span class="black-bold-text">Alias:</span>
+                                        <span class="form-small-text">Mam Bo</span>
+                                    </p>
+                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
+                                        <span span class="black-bold-text">Status:</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
 
@@ -337,87 +268,26 @@
                         <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
                             <div class="d-flex flex-column flex-sm-row">
                                 <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
+                                    <img class="" src="./assets/img/png/dc-cam.png" alt="dccam">
                                 </div>
                                 <div class="dc-cam-form ms-sm-3 w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
+                                        <span class="black-bold-text">Director:</span>
+                                        <span class="form-small-text">N/A</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">ID:</span>
+                                        <span span class="black-bold-text">Record No:</span>
                                         <span class="form-small-text">100816</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">Alias:</span>
+                                        <span span class="black-bold-text">Title</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
-
-                                </div>
-
-                            </div>
-                            <p class="form-small-text mt-3">Gender: Male nationality:Khmer ,height:m, age:31 years
-                                old,date of
-                                birth:...
-                                <span class="read-more-text">
-                                    Read More
-                                </span> </p>
-
-                        </div>
-                    </div>
-
-                    <div class="d-flex flex-column  flex-lg-row justify-content-between w-100 mt-3 ">
-                        <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
-                            <div class="d-flex flex-column flex-sm-row">
-                                <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
-                                </div>
-                                <div class="dc-cam-form ms-sm-3 w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
-                                    </p>
-                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">ID:</span>
-                                        <span class="form-small-text">100816</span>
-                                    </p>
-                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">Alias:</span>
+                                        <span span class="black-bold-text">Producer:</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
-
                                 </div>
-
-                            </div>
-                            <p class="form-small-text mt-3">Gender: Male nationality:Khmer ,height:m, age:31 years
-                                old,date of
-                                birth:...
-                                <span class="read-more-text">
-                                    Read More
-                                </span> </p>
-
-                        </div>
-                        <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
-                            <div class="d-flex flex-column flex-sm-row">
-                                <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
-                                </div>
-                                <div class="dc-cam-form ms-sm-3 w-100 ">
-                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
-                                    </p>
-                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">ID:</span>
-                                        <span class="form-small-text">100816</span>
-                                    </p>
-                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">Alias:</span>
-                                        <span class="form-small-text">Mam Bo</span>
-                                    </p>
-
-                                </div>
-
                             </div>
                             <p class="form-small-text mt-3">Gender: Male nationality:Khmer ,height:m, age:31 years
                                 old,date of
@@ -429,16 +299,18 @@
                         </div>
                     </div>
 
+
+
                     <div class="d-flex flex-column  flex-lg-row justify-content-between w-100 mt-3 ">
                         <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
                             <div class="d-flex flex-column flex-sm-row">
                                 <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
+                                    <img class="" src="./assets/img/png/dc-cam.png" alt="dccam">
                                 </div>
-                                <div class="dc-cam-form ms-sm-3 w-100 ">
+                                <div class="dc-cam-form ms-sm-3  w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
+                                        <span class="form-small-text">N/A</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span span class="black-bold-text">ID:</span>
@@ -446,6 +318,10 @@
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span span class="black-bold-text">Alias:</span>
+                                        <span class="form-small-text">Mam Bo</span>
+                                    </p>
+                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
+                                        <span span class="black-bold-text">Status:</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
 
@@ -463,24 +339,26 @@
                         <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
                             <div class="d-flex flex-column flex-sm-row">
                                 <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
+                                    <img class="" src="./assets/img/png/dc-cam.png" alt="dccam">
                                 </div>
                                 <div class="dc-cam-form ms-sm-3 w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
+                                        <span class="black-bold-text">Director:</span>
+                                        <span class="form-small-text">N/A</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">ID:</span>
+                                        <span span class="black-bold-text">Record No:</span>
                                         <span class="form-small-text">100816</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">Alias:</span>
+                                        <span span class="black-bold-text">Title</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
-
+                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
+                                        <span span class="black-bold-text">Producer:</span>
+                                        <span class="form-small-text">Mam Bo</span>
+                                    </p>
                                 </div>
-
                             </div>
                             <p class="form-small-text mt-3">Gender: Male nationality:Khmer ,height:m, age:31 years
                                 old,date of
@@ -495,12 +373,12 @@
                         <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
                             <div class="d-flex flex-column flex-sm-row">
                                 <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
+                                    <img class="" src="./assets/img/png/dc-cam.png" alt="dccam">
                                 </div>
-                                <div class="dc-cam-form ms-sm-3 w-100 ">
+                                <div class="dc-cam-form ms-sm-3  w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
+                                        <span class="form-small-text">N/A</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span span class="black-bold-text">ID:</span>
@@ -508,6 +386,10 @@
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span span class="black-bold-text">Alias:</span>
+                                        <span class="form-small-text">Mam Bo</span>
+                                    </p>
+                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
+                                        <span span class="black-bold-text">Status:</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
 
@@ -525,24 +407,26 @@
                         <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
                             <div class="d-flex flex-column flex-sm-row">
                                 <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
+                                    <img class="" src="./assets/img/png/dc-cam.png" alt="dccam">
                                 </div>
                                 <div class="dc-cam-form ms-sm-3 w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
+                                        <span class="black-bold-text">Director:</span>
+                                        <span class="form-small-text">N/A</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">ID:</span>
+                                        <span span class="black-bold-text">Record No:</span>
                                         <span class="form-small-text">100816</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">Alias:</span>
+                                        <span span class="black-bold-text">Title</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
-
+                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
+                                        <span span class="black-bold-text">Producer:</span>
+                                        <span class="form-small-text">Mam Bo</span>
+                                    </p>
                                 </div>
-
                             </div>
                             <p class="form-small-text mt-3">Gender: Male nationality:Khmer ,height:m, age:31 years
                                 old,date of
@@ -557,12 +441,12 @@
                         <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
                             <div class="d-flex flex-column flex-sm-row">
                                 <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
+                                    <img class="" src="./assets/img/png/dc-cam.png" alt="dccam">
                                 </div>
-                                <div class="dc-cam-form ms-sm-3 w-100 ">
+                                <div class="dc-cam-form ms-sm-3  w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
+                                        <span class="form-small-text">N/A</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span span class="black-bold-text">ID:</span>
@@ -570,6 +454,10 @@
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span span class="black-bold-text">Alias:</span>
+                                        <span class="form-small-text">Mam Bo</span>
+                                    </p>
+                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
+                                        <span span class="black-bold-text">Status:</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
 
@@ -587,24 +475,26 @@
                         <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
                             <div class="d-flex flex-column flex-sm-row">
                                 <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
+                                    <img class="" src="./assets/img/png/dc-cam.png" alt="dccam">
                                 </div>
                                 <div class="dc-cam-form ms-sm-3 w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
+                                        <span class="black-bold-text">Director:</span>
+                                        <span class="form-small-text">N/A</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">ID:</span>
+                                        <span span class="black-bold-text">Record No:</span>
                                         <span class="form-small-text">100816</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">Alias:</span>
+                                        <span span class="black-bold-text">Title</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
-
+                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
+                                        <span span class="black-bold-text">Producer:</span>
+                                        <span class="form-small-text">Mam Bo</span>
+                                    </p>
                                 </div>
-
                             </div>
                             <p class="form-small-text mt-3">Gender: Male nationality:Khmer ,height:m, age:31 years
                                 old,date of
@@ -619,12 +509,12 @@
                         <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
                             <div class="d-flex flex-column flex-sm-row">
                                 <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
+                                    <img class="" src="./assets/img/png/dc-cam.png" alt="dccam">
                                 </div>
-                                <div class="dc-cam-form ms-sm-3 w-100 ">
+                                <div class="dc-cam-form ms-sm-3  w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
+                                        <span class="form-small-text">N/A</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span span class="black-bold-text">ID:</span>
@@ -632,6 +522,10 @@
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span span class="black-bold-text">Alias:</span>
+                                        <span class="form-small-text">Mam Bo</span>
+                                    </p>
+                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
+                                        <span span class="black-bold-text">Status:</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
 
@@ -649,24 +543,26 @@
                         <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
                             <div class="d-flex flex-column flex-sm-row">
                                 <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
+                                    <img class="" src="./assets/img/png/dc-cam.png" alt="dccam">
                                 </div>
                                 <div class="dc-cam-form ms-sm-3 w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
+                                        <span class="black-bold-text">Director:</span>
+                                        <span class="form-small-text">N/A</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">ID:</span>
+                                        <span span class="black-bold-text">Record No:</span>
                                         <span class="form-small-text">100816</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">Alias:</span>
+                                        <span span class="black-bold-text">Title</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
-
+                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
+                                        <span span class="black-bold-text">Producer:</span>
+                                        <span class="form-small-text">Mam Bo</span>
+                                    </p>
                                 </div>
-
                             </div>
                             <p class="form-small-text mt-3">Gender: Male nationality:Khmer ,height:m, age:31 years
                                 old,date of
@@ -681,12 +577,12 @@
                         <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
                             <div class="d-flex flex-column flex-sm-row">
                                 <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
+                                    <img class="" src="./assets/img/png/dc-cam.png" alt="dccam">
                                 </div>
-                                <div class="dc-cam-form ms-sm-3 w-100 ">
+                                <div class="dc-cam-form ms-sm-3  w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
+                                        <span class="form-small-text">N/A</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span span class="black-bold-text">ID:</span>
@@ -694,6 +590,10 @@
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
                                         <span span class="black-bold-text">Alias:</span>
+                                        <span class="form-small-text">Mam Bo</span>
+                                    </p>
+                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
+                                        <span span class="black-bold-text">Status:</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
 
@@ -711,24 +611,26 @@
                         <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 ">
                             <div class="d-flex flex-column flex-sm-row">
                                 <div class="text-center mb-3 mb-sm-0">
-                                    <img class="w-sm-100" src="./assets/img/png/dc-cam.png" alt="dccam">
+                                    <img class="" src="./assets/img/png/dc-cam.png" alt="dccam">
                                 </div>
                                 <div class="dc-cam-form ms-sm-3 w-100 ">
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span class="black-bold-text">Name:</span>
-                                        <span class="form-small-text">Sokj</span>
+                                        <span class="black-bold-text">Director:</span>
+                                        <span class="form-small-text">N/A</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">ID:</span>
+                                        <span span class="black-bold-text">Record No:</span>
                                         <span class="form-small-text">100816</span>
                                     </p>
                                     <p class="br-bottom-grey d-flex justify-content-between pb-1">
-                                        <span span class="black-bold-text">Alias:</span>
+                                        <span span class="black-bold-text">Title</span>
                                         <span class="form-small-text">Mam Bo</span>
                                     </p>
-
+                                    <p class="br-bottom-grey d-flex justify-content-between pb-1">
+                                        <span span class="black-bold-text">Producer:</span>
+                                        <span class="form-small-text">Mam Bo</span>
+                                    </p>
                                 </div>
-
                             </div>
                             <p class="form-small-text mt-3">Gender: Male nationality:Khmer ,height:m, age:31 years
                                 old,date of
@@ -739,6 +641,7 @@
 
                         </div>
                     </div>
+
 
                     <div class="text-center pt-sm-5  mt-5">
                         <div class="pt-4">
