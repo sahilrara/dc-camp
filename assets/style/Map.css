@@ -2,9 +2,13 @@
     border-radius: 22px !important;
 }
 
+.mb-200 {
+    margin-bottom: 200px;
+}
+
 .gmp-responsive-map {
     overflow: hidden;
-    padding-bottom: 56.25%;
+    height: 526px !important;
     position: relative;
     height: 0;
 }
@@ -26,7 +30,7 @@
 
 .anlongveng-responsive-map {
     overflow: hidden;
-    padding-bottom: 56.25%;
+    height: 541px !important;
     position: relative;
     height: 0;
 }
@@ -49,7 +53,7 @@
 
 .queen-responsive-map {
     overflow: hidden;
-    padding-bottom: 56.25%;
+    height: 436px !important;
     position: relative;
     height: 0;
 }
@@ -72,7 +76,7 @@
 
 .outreach-responsive-map {
     overflow: hidden;
-    padding-bottom: 56.25%;
+    height: 556px !important;
     position: relative;
     height: 0;
 }
@@ -91,4 +95,18 @@
 
 .footer-space {
     margin-top: 100px;
+}
+
+.map-page-a-tag {
+    color: #727272 !important;
+}
+
+.map-page-button:hover .map-page-a-tag {
+    color: var(--color-red) !important;
+}
+
+@media (max-width:992px) {
+    .mb-lg-100 {
+        margin-bottom: 100px !important;
+    }
 }
