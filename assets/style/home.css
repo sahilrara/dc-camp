@@ -28,6 +28,7 @@
 
     .bg-libary-img {
         height: 40vh;
+        background-size: unset !important;
     }
 
 }
