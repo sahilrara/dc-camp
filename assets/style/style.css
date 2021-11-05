@@ -200,3 +200,12 @@ body {
 }
 
 /*====================== COMMON TEXT CLASS START====================== */
+
+
+
+
+@media (min-width: 1600px) {
+    .container-xll {
+        max-width: 1400px !important;
+    }
+}
