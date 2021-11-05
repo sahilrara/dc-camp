@@ -155,6 +155,7 @@ body {
         sans-serif;
     font-size: var(--font-48);
     color: var(--color-white);
+    font-weight: 600;
 }
 
 .heading {
@@ -176,6 +177,7 @@ body {
         sans-serif;
     font-size: var(--font-18);
     color: var(--color-white);
+    font-weight: normal;
 }
 
 .para {

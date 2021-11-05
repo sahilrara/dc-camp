@@ -1,0 +1,121 @@
+.navbar_box_shadow {
+    background: var(--color-white);
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.07);
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .h-xl-xxl-45 {
+        height: 45px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .bg-libary-img {
+        height: 40vh;
+    }
+
+    .h-xl-30 {
+        height: 30px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .h-xs-30 {
+        height: 30px;
+    }
+
+    .bg-libary-img {
+        height: 40vh;
+    }
+
+}
+
+
+.navbar-text-link {
+    color: var(--color-black) !important;
+    font-size: var(--font-15) !important;
+    font-weight: 400 !important;
+    font-family: "Poppins";
+}
+
+.sign-in_btn {
+    background-color: var(--color-red) !important;
+    font-size: var(--font-15) !important;
+    color: var(--color-white) !important;
+    border-radius: 22px;
+    font-weight: 600;
+    font-family: "Poppins" !important;
+}
+
+.sign-in_btn:hover {
+    background-color: var(--color-red) !important;
+    opacity: .7;
+}
+
+
+.bg-libary-img {
+    background-image: url("../img/png/unsplash_2JIvboGLeho.png");
+    height: 37vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.opacity-text {
+    font-size: var(--font-16);
+    color: var(--color-white);
+    opacity: .7;
+    font-weight: normal;
+    font-family: "Poppins";
+}
+
+.filter-box-shadow {
+    background: var(--color-white);
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+}
+
+.filter-text {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: var(--font-15);
+    color: var(--color-black);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.b-b-red {
+    border-bottom: 2px solid #c2190e;
+}
+
+
+
+.placeholder-input-text::placeholder {
+    font-size: var(--font-15);
+    color: var(--color-black);
+    font-weight: normal;
+    font-family: "Poppins";
+    opacity: .7;
+}
+
+.placeholder-input-text {
+    font-size: var(--font-15);
+    color: var(--color-black);
+    font-weight: normal;
+    font-family: "Poppins";
+
+}
+
+
+
+.select-text {
+    font-size: var(--font-15);
+    color: var(--color-black);
+    font-weight: normal;
+    font-family: "Poppins";
+    opacity: .7;
+}
