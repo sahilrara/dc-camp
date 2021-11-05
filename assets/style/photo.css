@@ -25,6 +25,10 @@
 }
 
 /* MARGIN AND PADDING CLASS END */
+.border-r-22 {
+    border-radius: 22px !important;
+}
+
 @media (max-width:576px) {
     .bg-color-photos-section {
         width: 100%;
