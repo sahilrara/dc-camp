@@ -1,3 +1,7 @@
+.border-r-22 {
+    border-radius: 22px !important;
+}
+
 .gmp-responsive-map {
     overflow: hidden;
     padding-bottom: 56.25%;
