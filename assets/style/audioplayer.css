@@ -19,12 +19,20 @@
   width: 130px;
 }
 
+.interview-img-style {
+  width: 137px !important;
+  height: 125px;
+}
+.bg-audio-documnet-image {
+  background-image: url("../img/png/audio-document-bg-image.png") !important;
+}
 /* AUDIO PLAYER STYLE DON'T TOUCH THIS CODE  */
 
 /* .w-475 {
   width: 475px;
 } */
 .player {
+  display: flex;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -44,7 +52,7 @@
   overflow: visible;
   padding: 0;
   position: relative;
-  width: 220px;
+  width: 100%;
   margin-top: 18px;
   margin-left: 5px;
   border-radius: 10px;
@@ -170,6 +178,7 @@
 }
 #pButton svg {
   width: 10px;
+  color: white;
 }
 
 #pButton:hover {
@@ -250,29 +259,17 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+.unset-transform-translate {
+  transform: unset !important;
+}
 .time {
   font-size: var(--font-16) !important;
   color: rgba(0, 0, 0, 0.7) !important;
   font-weight: 400;
 }
 
-@media (min-width: 1400px) {
-  #progressbar {
-    width: 229px;
-  }
-}
-@media (min-width: 1600px) {
-  #progressbar {
-    width: 280px;
-  }
-}
-
 @media (min-width: 1800px) {
   .form-parent {
     width: 250px;
-  }
-
-  #progressbar {
-    width: 350px;
   }
 }

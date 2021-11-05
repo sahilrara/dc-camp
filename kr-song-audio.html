@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link rel="stylesheet" href="./assets/style/home.css" />
+    <link rel="stylesheet" href="./assets/style/audioplayer.css" />
+
+    <title>Dc-camp</title>
+  </head>
+
+  <body>
+    <!--NAVBAR SECTION STARTS HERE...  -->
+    <section class="navbar_box_shadow py-2">
+      <div class="container container-xll">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                class="h-xl-xxl-45 h-xl-30 h-xs-30"
+                src="./assets/img/png/dc-camp-logo.png"
+                alt=""
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul
+                class="
+                  navbar-nav
+                  my-auto
+                  ms-auto
+                  align-items-lg-center
+                  mb-2 mb-lg-0
+                "
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link navbar-text-link"
+                    aria-current="page"
+                    href="#"
+                    >Memory</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-text-link mx-lg-2 mx-xl-3" href="#"
+                    >Justice</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-text-link" href="#">Healing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-text-link mx-lg-2 mx-xl-3" href="#"
+                    >Peace</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-text-link" href="#">Development</a>
+                </li>
+                <li class="my-auto ms-lg-3">
+                  <a href="">
+                    <img src="./assets/img/png/flag1 1.png" alt="" />
+                  </a>
+                </li>
+
+                <li class="my-auto mx-lg-2 mx-xl-3 py-3">
+                  <a href="">
+                    <img src="./assets/img/png/flag2 1.png" alt="" />
+                  </a>
+                </li>
+                <div class="">
+                  <button class="btn sign-in_btn py-2 px-xl-4 px-3">
+                    Sign In
+                  </button>
+                </div>
+                <div class="ms-lg-2 mt-3 mt-lg-0">
+                  <button class="btn sign-in_btn py-2 px-xl-4 px-3">
+                    Donate
+                  </button>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- ENDS HERE .... -->
+
+    <!-- COMMON HERO SECTION STARS FROM HERE  -->
+    <section class="bg-libary-img bg-audio-documnet-image d-flex flex-column">
+      <div
+        class="
+          d-flex
+          flex-grow-1 flex-column
+          text-white
+          align-items-center
+          justify-content-center
+        "
+      >
+        <h2 class="main-heading text-center text-white">Audio Documents</h2>
+        <p class="opacity-text px-4 px-sm-0 text-center py-2 text-white">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <p class="main-para text-white">
+          <span class="fw-normal">HOME</span> > CBIO
+        </p>
+      </div>
+    </section>
+
+    <!-- COMMON HERO SECTION ENDS HERE ... -->
+
+    <!-- MAIN SECTION STARTS FROM HERE ... -->
+
+    <section>
+      <div class="container container-xll mt-5 pt-sm-5 pt-3">
+        <div class="row">
+          <div class="col-xl-3 col-lg-8 col-12 mx-auto mb-5 mb-xl-0">
+            <div class="filter-box-shadow py-sm-4 px-sm-3 py-3 pb-3 px-3">
+              <div class="d-flex justify-content-between pb-2 b-b-red">
+                <p class="my-auto filter-text">Filter</p>
+
+                <div class="d-flex">
+                  <div class="my-auto me-3 cursor-pointer">
+                    <img src="./assets/img/png/mdi_reload.png" alt="" />
+                  </div>
+                  <button class="btn sign-in_btn py-2 px-4">
+                    <img src="./assets/img/png/white-searchicon.png" alt="" />
+                    Search
+                  </button>
+                </div>
+              </div>
+              <div class="mt-3">
+                <input
+                  type="email"
+                  class="form-control placeholder-input-text py-2"
+                  placeholder="Record no."
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <input
+                  type="email"
+                  class="form-control placeholder-input-text py-2 my-2"
+                  placeholder="Name"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <input
+                  type="email"
+                  class="form-control placeholder-input-text py-2"
+                  placeholder="Other Name"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <select
+                  class="form-select mt-2 py-2 select-text"
+                  aria-label="Default select example"
+                >
+                  <option selected>Select Gender</option>
+                  <option>All</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Not Clear</option>
+                </select>
+
+                <!-- ends here -->
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-9 col-12">
+              <div class="d-flex flex-sm-row flex-column">
+              <a href="./kr-song-audio.html" class="border-red-btn px-3   text-decoration-none"
+                >KR SONG</a
+              >
+              <a
+                href="./interview-audio.html"
+                class="
+                  border-red-btn
+                  my-3 my-sm-0
+                  mx-sm-2
+                  px-3
+                  text-decoration-none
+                "
+              >
+                INTERVIEW AUDIO
+              </a>
+              <a
+                href="./other-audio.html"
+                class="border-red-btn my-3 my-sm-0 mx-sm-2 px-3   text-decoration-none"
+              >
+                OTHERS
+              </a>
+            </div>
+
+            <!-- ROW .A -->
+            <div
+              class="
+                d-flex
+                flex-column flex-lg-row
+                justify-content-between
+                w-100
+                mt-3
+              "
+            >
+              <!-- AUDIO DOCUMENT WRAPPER -->
+              <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 w-100">
+                <div class="d-flex">
+                  <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                  <div class="w-100 ms-3 mt-3">
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Name: </span>
+                      <span class="para"> Sokh </span>
+                    </p>
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Title: </span>
+                      <span class="para"> 100816 </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="position-relative w-100 d-flex flex-column">
+                  <div class="player">
+                    <div id="progressbar">
+                      <div class="knob" id="knob1"></div>
+                      <div class="range" id="range"></div>
+                    </div>
+
+                    <div>
+                      <button id="pButton">
+                        <i class="playbutton fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <button id="mButton">
+                      <i class="soundbutton fas fa-volume-up"></i>
+                    </button>
+                    <div id="volume-bar">
+                      <div class="knob2" id="knob2"></div>
+                      <div class="range2" id="range2"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between w-475">
+                    <p id="start-time" class="time mb-0"></p>
+
+                    <p id="duration" class="time mb-0">00:00</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- AUDIO DOCUMENT WRAPPER -->
+              <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 w-100">
+                <div class="d-flex">
+                  <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                  <div class="w-100 ms-3 mt-3">
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Name: </span>
+                      <span class="para"> Sokh </span>
+                    </p>
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Title: </span>
+                      <span class="para"> 100816 </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="position-relative w-100 d-flex flex-column">
+                  <div class="player">
+                    <div id="progressbar">
+                      <div
+                        class="knob unset-transform-translate"
+                        id="knob1"
+                      ></div>
+                      <div class="range" id="range"></div>
+                    </div>
+
+                    <div>
+                      <button id="pButton">
+                        <i class="playbutton fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <button id="mButton">
+                      <i class="soundbutton fas fa-volume-up"></i>
+                    </button>
+                    <div id="volume-bar">
+                      <div class="knob2" id="knob2"></div>
+                      <div class="range2" id="range2"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between w-475">
+                    <p id="start-time" class="time mb-0"></p>
+
+                    <p id="duration" class="time mb-0">00:00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ROW .A -->
+            <div
+              class="
+                d-flex
+                flex-column flex-lg-row
+                justify-content-between
+                w-100
+                mt-3
+              "
+            >
+              <!-- AUDIO DOCUMENT WRAPPER -->
+              <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 w-100">
+                <div class="d-flex">
+                  <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                  <div class="w-100 ms-3 mt-3">
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Name: </span>
+                      <span class="para"> Sokh </span>
+                    </p>
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Title: </span>
+                      <span class="para"> 100816 </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="position-relative w-100 d-flex flex-column">
+                  <div class="player">
+                    <div id="progressbar">
+                      <div class="knob" id="knob1"></div>
+                      <div class="range" id="range"></div>
+                    </div>
+
+                    <div>
+                      <button id="pButton">
+                        <i class="playbutton fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <button id="mButton">
+                      <i class="soundbutton fas fa-volume-up"></i>
+                    </button>
+                    <div id="volume-bar">
+                      <div class="knob2" id="knob2"></div>
+                      <div class="range2" id="range2"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between w-475">
+                    <p id="start-time" class="time mb-0"></p>
+
+                    <p id="duration" class="time mb-0">00:00</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- AUDIO DOCUMENT WRAPPER -->
+              <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 w-100">
+                <div class="d-flex">
+                  <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                  <div class="w-100 ms-3 mt-3">
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Name: </span>
+                      <span class="para"> Sokh </span>
+                    </p>
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Title: </span>
+                      <span class="para"> 100816 </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="position-relative w-100 d-flex flex-column">
+                  <div class="player">
+                    <div id="progressbar">
+                      <div
+                        class="knob unset-transform-translate"
+                        id="knob1"
+                      ></div>
+                      <div class="range" id="range"></div>
+                    </div>
+
+                    <div>
+                      <button id="pButton">
+                        <i class="playbutton fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <button id="mButton">
+                      <i class="soundbutton fas fa-volume-up"></i>
+                    </button>
+                    <div id="volume-bar">
+                      <div class="knob2" id="knob2"></div>
+                      <div class="range2" id="range2"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between w-475">
+                    <p id="start-time" class="time mb-0"></p>
+
+                    <p id="duration" class="time mb-0">00:00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ROW .A -->
+            <div
+              class="
+                d-flex
+                flex-column flex-lg-row
+                justify-content-between
+                w-100
+                mt-3
+              "
+            >
+              <!-- AUDIO DOCUMENT WRAPPER -->
+              <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 w-100">
+                <div class="d-flex">
+                  <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                  <div class="w-100 ms-3 mt-3">
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Name: </span>
+                      <span class="para"> Sokh </span>
+                    </p>
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Title: </span>
+                      <span class="para"> 100816 </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="position-relative w-100 d-flex flex-column">
+                  <div class="player">
+                    <div id="progressbar">
+                      <div class="knob" id="knob1"></div>
+                      <div class="range" id="range"></div>
+                    </div>
+
+                    <div>
+                      <button id="pButton">
+                        <i class="playbutton fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <button id="mButton">
+                      <i class="soundbutton fas fa-volume-up"></i>
+                    </button>
+                    <div id="volume-bar">
+                      <div class="knob2" id="knob2"></div>
+                      <div class="range2" id="range2"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between w-475">
+                    <p id="start-time" class="time mb-0"></p>
+
+                    <p id="duration" class="time mb-0">00:00</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- AUDIO DOCUMENT WRAPPER -->
+              <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 w-100">
+                <div class="d-flex">
+                  <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                  <div class="w-100 ms-3 mt-3">
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Name: </span>
+                      <span class="para"> Sokh </span>
+                    </p>
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Title: </span>
+                      <span class="para"> 100816 </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="position-relative w-100 d-flex flex-column">
+                  <div class="player">
+                    <div id="progressbar">
+                      <div
+                        class="knob unset-transform-translate"
+                        id="knob1"
+                      ></div>
+                      <div class="range" id="range"></div>
+                    </div>
+
+                    <div>
+                      <button id="pButton">
+                        <i class="playbutton fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <button id="mButton">
+                      <i class="soundbutton fas fa-volume-up"></i>
+                    </button>
+                    <div id="volume-bar">
+                      <div class="knob2" id="knob2"></div>
+                      <div class="range2" id="range2"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between w-475">
+                    <p id="start-time" class="time mb-0"></p>
+
+                    <p id="duration" class="time mb-0">00:00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ROW .A -->
+            <div
+              class="
+                d-flex
+                flex-column flex-lg-row
+                justify-content-between
+                w-100
+                mt-3
+              "
+            >
+              <!-- AUDIO DOCUMENT WRAPPER -->
+              <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 w-100">
+                <div class="d-flex">
+                  <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                  <div class="w-100 ms-3 mt-3">
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Name: </span>
+                      <span class="para"> Sokh </span>
+                    </p>
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Title: </span>
+                      <span class="para"> 100816 </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="position-relative w-100 d-flex flex-column">
+                  <div class="player">
+                    <div id="progressbar">
+                      <div class="knob" id="knob1"></div>
+                      <div class="range" id="range"></div>
+                    </div>
+
+                    <div>
+                      <button id="pButton">
+                        <i class="playbutton fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <button id="mButton">
+                      <i class="soundbutton fas fa-volume-up"></i>
+                    </button>
+                    <div id="volume-bar">
+                      <div class="knob2" id="knob2"></div>
+                      <div class="range2" id="range2"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between w-475">
+                    <p id="start-time" class="time mb-0"></p>
+
+                    <p id="duration" class="time mb-0">00:00</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- AUDIO DOCUMENT WRAPPER -->
+              <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 w-100">
+                <div class="d-flex">
+                  <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                  <div class="w-100 ms-3 mt-3">
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Name: </span>
+                      <span class="para"> Sokh </span>
+                    </p>
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Title: </span>
+                      <span class="para"> 100816 </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="position-relative w-100 d-flex flex-column">
+                  <div class="player">
+                    <div id="progressbar">
+                      <div
+                        class="knob unset-transform-translate"
+                        id="knob1"
+                      ></div>
+                      <div class="range" id="range"></div>
+                    </div>
+
+                    <div>
+                      <button id="pButton">
+                        <i class="playbutton fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <button id="mButton">
+                      <i class="soundbutton fas fa-volume-up"></i>
+                    </button>
+                    <div id="volume-bar">
+                      <div class="knob2" id="knob2"></div>
+                      <div class="range2" id="range2"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between w-475">
+                    <p id="start-time" class="time mb-0"></p>
+
+                    <p id="duration" class="time mb-0">00:00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ROW .A -->
+            <div
+              class="
+                d-flex
+                flex-column flex-lg-row
+                justify-content-between
+                w-100
+                mt-3
+              "
+            >
+              <!-- AUDIO DOCUMENT WRAPPER -->
+              <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 w-100">
+                <div class="d-flex">
+                  <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                  <div class="w-100 ms-3 mt-3">
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Name: </span>
+                      <span class="para"> Sokh </span>
+                    </p>
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Title: </span>
+                      <span class="para"> 100816 </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="position-relative w-100 d-flex flex-column">
+                  <div class="player">
+                    <div id="progressbar">
+                      <div class="knob" id="knob1"></div>
+                      <div class="range" id="range"></div>
+                    </div>
+
+                    <div>
+                      <button id="pButton">
+                        <i class="playbutton fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <button id="mButton">
+                      <i class="soundbutton fas fa-volume-up"></i>
+                    </button>
+                    <div id="volume-bar">
+                      <div class="knob2" id="knob2"></div>
+                      <div class="range2" id="range2"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between w-475">
+                    <p id="start-time" class="time mb-0"></p>
+
+                    <p id="duration" class="time mb-0">00:00</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- AUDIO DOCUMENT WRAPPER -->
+              <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 w-100">
+                <div class="d-flex">
+                  <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                  <div class="w-100 ms-3 mt-3">
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Name: </span>
+                      <span class="para"> Sokh </span>
+                    </p>
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Title: </span>
+                      <span class="para"> 100816 </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="position-relative w-100 d-flex flex-column">
+                  <div class="player">
+                    <div id="progressbar">
+                      <div
+                        class="knob unset-transform-translate"
+                        id="knob1"
+                      ></div>
+                      <div class="range" id="range"></div>
+                    </div>
+
+                    <div>
+                      <button id="pButton">
+                        <i class="playbutton fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <button id="mButton">
+                      <i class="soundbutton fas fa-volume-up"></i>
+                    </button>
+                    <div id="volume-bar">
+                      <div class="knob2" id="knob2"></div>
+                      <div class="range2" id="range2"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between w-475">
+                    <p id="start-time" class="time mb-0"></p>
+
+                    <p id="duration" class="time mb-0">00:00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ROW .A -->
+            <div
+              class="
+                d-flex
+                flex-column flex-lg-row
+                justify-content-between
+                w-100
+                mt-3
+              "
+            >
+              <!-- AUDIO DOCUMENT WRAPPER -->
+              <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 w-100">
+                <div class="d-flex">
+                  <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                  <div class="w-100 ms-3 mt-3">
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Name: </span>
+                      <span class="para"> Sokh </span>
+                    </p>
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Title: </span>
+                      <span class="para"> 100816 </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="position-relative w-100 d-flex flex-column">
+                  <div class="player">
+                    <div id="progressbar">
+                      <div class="knob" id="knob1"></div>
+                      <div class="range" id="range"></div>
+                    </div>
+
+                    <div>
+                      <button id="pButton">
+                        <i class="playbutton fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <button id="mButton">
+                      <i class="soundbutton fas fa-volume-up"></i>
+                    </button>
+                    <div id="volume-bar">
+                      <div class="knob2" id="knob2"></div>
+                      <div class="range2" id="range2"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between w-475">
+                    <p id="start-time" class="time mb-0"></p>
+
+                    <p id="duration" class="time mb-0">00:00</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- AUDIO DOCUMENT WRAPPER -->
+              <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 w-100">
+                <div class="d-flex">
+                  <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                  <div class="w-100 ms-3 mt-3">
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Name: </span>
+                      <span class="para"> Sokh </span>
+                    </p>
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Title: </span>
+                      <span class="para"> 100816 </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="position-relative w-100 d-flex flex-column">
+                  <div class="player">
+                    <div id="progressbar">
+                      <div
+                        class="knob unset-transform-translate"
+                        id="knob1"
+                      ></div>
+                      <div class="range" id="range"></div>
+                    </div>
+
+                    <div>
+                      <button id="pButton">
+                        <i class="playbutton fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <button id="mButton">
+                      <i class="soundbutton fas fa-volume-up"></i>
+                    </button>
+                    <div id="volume-bar">
+                      <div class="knob2" id="knob2"></div>
+                      <div class="range2" id="range2"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between w-475">
+                    <p id="start-time" class="time mb-0"></p>
+
+                    <p id="duration" class="time mb-0">00:00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ROW .A -->
+            <div
+              class="
+                d-flex
+                flex-column flex-lg-row
+                justify-content-between
+                w-100
+                mt-3
+              "
+            >
+              <!-- AUDIO DOCUMENT WRAPPER -->
+              <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 w-100">
+                <div class="d-flex">
+                  <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                  <div class="w-100 ms-3 mt-3">
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Name: </span>
+                      <span class="para"> Sokh </span>
+                    </p>
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Title: </span>
+                      <span class="para"> 100816 </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="position-relative w-100 d-flex flex-column">
+                  <div class="player">
+                    <div id="progressbar">
+                      <div class="knob" id="knob1"></div>
+                      <div class="range" id="range"></div>
+                    </div>
+
+                    <div>
+                      <button id="pButton">
+                        <i class="playbutton fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <button id="mButton">
+                      <i class="soundbutton fas fa-volume-up"></i>
+                    </button>
+                    <div id="volume-bar">
+                      <div class="knob2" id="knob2"></div>
+                      <div class="range2" id="range2"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between w-475">
+                    <p id="start-time" class="time mb-0"></p>
+
+                    <p id="duration" class="time mb-0">00:00</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- AUDIO DOCUMENT WRAPPER -->
+              <div class="dc-cam-wrapper me-lg-3 mb-3 mb-lg-0 w-100">
+                <div class="d-flex">
+                  <img src="./assets/img/png/audio-card-img.png" alt="" />
+
+                  <div class="w-100 ms-3 mt-3">
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Name: </span>
+                      <span class="para"> Sokh </span>
+                    </p>
+                    <p
+                      class="
+                        border-bottom-1-grey
+                        d-flex
+                        justify-content-between
+                      "
+                    >
+                      <span class="bold-black-text"> Title: </span>
+                      <span class="para"> 100816 </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="position-relative w-100 d-flex flex-column">
+                  <div class="player">
+                    <div id="progressbar">
+                      <div
+                        class="knob unset-transform-translate"
+                        id="knob1"
+                      ></div>
+                      <div class="range" id="range"></div>
+                    </div>
+
+                    <div>
+                      <button id="pButton">
+                        <i class="playbutton fas fa-pause"></i>
+                      </button>
+                    </div>
+                    <button id="mButton">
+                      <i class="soundbutton fas fa-volume-up"></i>
+                    </button>
+                    <div id="volume-bar">
+                      <div class="knob2" id="knob2"></div>
+                      <div class="range2" id="range2"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between w-475">
+                    <p id="start-time" class="time mb-0"></p>
+
+                    <p id="duration" class="time mb-0">00:00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- PAGINATION  HERE  -->
+
+            <div class="text-center mt-5">
+              <div class="">
+                <img
+                  class="cursor-pointer"
+                  src="./assets/img/png/leftarrow.png"
+                  alt=""
+                />
+                <span class="ms-3 cursor-pointer active-pagnation-text">1</span>
+                <span class="mx-3 pagenation-text cursor-pointer">2</span>
+                <span class="pagenation-text cursor-pointer">3</span>
+                <span class="mx-3 pagenation-text cursor-pointer">4</span>
+                <span class="me-3 pagenation-text cursor-pointer">5</span>
+                <img
+                  class="rotate-direction-180 cursor-pointer"
+                  src="./assets/img/png/leftarrow.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container-xll mt-5 pt-sm-5 pt-4 pb-3">
+        <div class="row">
+          <div class="col-12 text-center pt-4">
+            <p class="copyright-text">
+              © 2021 Documentation Center of Cambodia (DC-Cam)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN SECTION ENDS HERE ... -->
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/utils/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+
+    <script src="./js/audioplayer.js"></script>
+    <script>
+      $(function () {
+        $("#datepicker").datepicker();
+      });
+    </script>
+    <script>
+      $(function () {
+        $("#datepicker2").datepicker();
+      });
+    </script>
+  </body>
+</html>
