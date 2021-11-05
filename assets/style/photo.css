@@ -1,0 +1,44 @@
+.br-bottom-grey {
+    border-bottom: 1px solid #B8B8B8;
+}
+
+/* PHOTOS-SECTION BG COLOR AND IMG STRAT */
+.bg-color-photos-section {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 471px;
+}
+
+.bg-photos-hero-img {
+    background-image: url("../img/png/photos-hero-img.png");
+    height: 37vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* PHOTOS-SECTION BG COLOR END */
+/* MARGIN AND PADDING CLASS START */
+.mt-75 {
+    margin-top: 75px;
+}
+
+/* MARGIN AND PADDING CLASS END */
+@media (max-width:575.98px) {
+    .bg-color-photos-section {
+        width: 100%;
+    }
+
+    .bg-photos-hero-img {
+        height: 40vh;
+        background-size: unset !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .bg-photos-hero-img {
+        height: 40vh;
+    }
+
+}
