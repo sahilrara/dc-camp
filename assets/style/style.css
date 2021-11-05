@@ -29,6 +29,8 @@ body {
     --color-light-black-07: #BCBBB9;
     --color-white: #ffffff;
     --color-red: #C2190E;
+    --color-4B4B4B: #4B4B4B;
+    --color-FAFAFA: #FAFAFA;
 
 }
 
@@ -125,6 +127,14 @@ body {
     color: var(--color-black) !important;
 }
 
+.text-red {
+    color: var(--color-red) !important;
+}
+
+.text-4B4B4B {
+    color: var(--color-4B4B4B) !important;
+}
+
 .text-light-black {
     color: var(--color-light-black) !important;
 }
@@ -145,6 +155,10 @@ body {
     background-color: var(--color-red) !important;
 }
 
+.bg-color-FAFAFA {
+    background-color: var(--color-FAFAFA) !important;
+}
+
 
 
 /*====================== COLOR  CLASS END====================== */
@@ -154,28 +168,28 @@ body {
     font-family: 'Poppins',
         sans-serif;
     font-size: var(--font-48);
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 .heading {
     font-family: 'Poppins',
         sans-serif;
     font-size: var(--font-35);
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 .sub-heading {
     font-family: 'Poppins',
         sans-serif;
     font-size: var(--font-20);
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 .main-para {
     font-family: 'Poppins',
         sans-serif;
     font-size: var(--font-18);
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 .para {
@@ -189,14 +203,15 @@ body {
     font-family: 'Poppins',
         sans-serif;
     font-size: var(--font-15);
-    color: var(--color-white);
+    color: var(--color-light-black-07);
+    line-height: 27px;
 }
 
 .extra-small-text {
     font-family: 'Poppins',
         sans-serif;
     font-size: var(--font-14);
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 /*====================== COMMON TEXT CLASS START====================== */
