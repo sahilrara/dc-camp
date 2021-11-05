@@ -2,6 +2,17 @@
     border-bottom: 1px solid #B8B8B8;
 }
 
+
+.photos-page-a-tag {
+    color: #727272 !important;
+}
+
+.photos-page-button:hover .photos-page-a-tag {
+    color: var(--color-red) !important;
+}
+
+
+
 /* PHOTOS-SECTION BG COLOR AND IMG STRAT */
 .bg-color-photos-section {
     background: #FFFFFF;
