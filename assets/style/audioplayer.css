@@ -26,6 +26,11 @@
 .bg-audio-documnet-image {
   background-image: url("../img/png/audio-document-bg-image.png") !important;
 }
+.active-tab-btn {
+  border: 1px solid var(--color-red);
+  color: var(--color-red);
+  background: var(--color-white);
+}
 /* AUDIO PLAYER STYLE DON'T TOUCH THIS CODE  */
 
 /* .w-475 {
