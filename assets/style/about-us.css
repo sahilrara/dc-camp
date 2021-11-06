@@ -48,7 +48,6 @@
 @media (max-width: 576px) {
 
     .bg-about-hero-img {
-        height: 22vh;
         background-size: unset !important;
     }
 
@@ -56,8 +55,8 @@
         margin-top: 51px;
     }
 
-    .mt-sm-63 {
-        margin-top: 63px;
+    .mt-sm-45 {
+        margin-top: 45px;
     }
 
     .mb-sm-100 {
