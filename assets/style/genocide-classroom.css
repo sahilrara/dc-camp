@@ -1,3 +1,7 @@
+:root {
+    --color-gray: #bfbfbf;
+}
+
 /* BG CLASS START */
 .bg-genocide-hero-img {
     background-image: url("../img/png/Group\ 27815.png");
@@ -29,11 +33,11 @@
 
 
 .accordion-buttons::after {
-    background-image: none;
+    background-image: none !important;
 }
 
 .accordion-buttons:not(.collapsed)::after {
-    background-image: none;
+    background-image: none !important;
 }
 
 .accordion-button:focus {
@@ -67,6 +71,54 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
 }
 
+/* ACCORDION 2 */
+.accordion-button:not(.collapsed) {
+    color: var(--color-black);
+    background-color: var(--color-white);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../img/svg/accordian-arrow.svg");
+    transform: none;
+    padding-left: 61px;
+    padding-right: 20px;
+
+}
+
+.accordion-button::after {
+    background-image: url("../img/svg/accordian-down-arrow.svg");
+    padding-left: 61px;
+    padding-right: 20px;
+}
+
+.accordion-button {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.ps-38 {
+    padding-left: 38px;
+}
+
+.border-bottom {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.accordion-box {
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+
+    box-shadow: 0px 0px 0px rgba(54, 48, 116, 0.3);
+}
+
+.accordion-line {
+    border-bottom: 1px solid var(--color-gray);
+}
+
 @media (min-width: 992px) and (max-width: 1200px) {
     .bg-genocide-hero-img {
         height: 40vh;
@@ -79,4 +131,17 @@
     .bg-genocide-hero-img {
         background-size: unset !important;
     }
+
+    .accordion-button:not(.collapsed)::after {
+        padding-left: 0;
+    }
+
+    .accordion-button::after {
+        padding-left: 0;
+    }
+
+    .ps-38 {
+        padding-left: 16px;
+    }
+
 }
