@@ -78,16 +78,16 @@
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url("../img/svg/accordian-arrow.svg");
+    background-image: url("../img/svg/accordian-arrow.svg") !important;
     transform: none;
-    padding-left: 61px;
+
     padding-right: 20px;
 
 }
 
 .accordion-button::after {
     background-image: url("../img/svg/accordian-down-arrow.svg");
-    padding-left: 61px;
+    margin-left: 61px;
     padding-right: 20px;
 }
 
@@ -111,7 +111,6 @@
     background: var(--color-white);
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 20px;
-
     box-shadow: 0px 0px 0px rgba(54, 48, 116, 0.3);
 }
 
@@ -133,11 +132,11 @@
     }
 
     .accordion-button:not(.collapsed)::after {
-        padding-left: 0;
+        margin-left: 0;
     }
 
     .accordion-button::after {
-        padding-left: 0;
+        margin-left: 0;
     }
 
     .ps-38 {
