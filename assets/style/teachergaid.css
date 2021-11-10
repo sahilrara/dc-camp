@@ -1,15 +1,5 @@
-:root {
-  --font-12: 12px;
-  --font-36: 36px;
-}
+ 
 
-.fs-12 {
-  font-size: var(--font-12) !important;
-}
-
-.fs-36 {
-  font-size: var(--font-36) !important;
-}
 
 /* LINE-HIEGHT CLASS START */
 .line-h-166 {
@@ -29,7 +19,7 @@
 }
 
 /* BG CLASS START */
-.bg-teacher-guide-hero-img {
+.bg-teacher-hero-img {
   background-image: url("../img/png/about-us-hero-img.png");
   height: 37vh;
   background-repeat: no-repeat;
@@ -38,7 +28,7 @@
 
 /* BG CLASS END */
 @media (min-width: 992px) and (max-width: 1200px) {
-  .bg-teacher-guide-hero-img {
+  .bg-teacher-hero-img {
     height: 40vh;
   }
 
@@ -46,7 +36,7 @@
 
 @media (max-width: 576px) {
 
-  .bg-teacher-guide-hero-img {
+  .bg-teacher-hero-img {
     background-size: unset !important;
   }
 

@@ -16,12 +16,14 @@ body {
 
 :root {
   /* =============================FONT-SIZE============================= */
+  --font-12: 12px;
   --font-14: 14px;
   --font-15: 15px;
   --font-16: 16px;
   --font-18: 18px;
   --font-20: 20px;
   --font-35: 35px;
+  --font-36: 36px;
   --font-48: 48px;
   /* ========================================COLOR======================================== */
   --color-black: #000000;
@@ -45,6 +47,7 @@ body {
     --font-18: 16px;
     --font-20: 19px;
     --font-35: 24px;
+    --font-36: 27px;
     --font-48: 30px;
   }
 }
@@ -57,6 +60,7 @@ body {
     --font-18: 14px;
     --font-20: 18px;
     --font-35: 23px;
+    --font-36: 25px;
     --font-48: 26px;
   }
 
@@ -66,6 +70,10 @@ body {
 /*===================== font-size===================== */
 
 /*====================== FONT SIZE CLASS START====================== */
+.fs-12 {
+  font-size: var(--font-12) !important;
+}
+
 .fs-14 {
   font-size: var(--font-14) !important;
 }
@@ -88,6 +96,10 @@ body {
 
 .fs-35 {
   font-size: var(--font-35) !important;
+}
+
+.fs-36 {
+  font-size: var(--font-36) !important;
 }
 
 .fs-48 {
