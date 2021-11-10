@@ -1,3 +1,7 @@
+* {
+    transition: all 150ms ease-in-out !important;
+}
+
 .section-headings {
     font-size: var(--font-36);
     font-weight: 600;
@@ -32,6 +36,7 @@
     color: var(--color-red);
 }
 
+/* AND MEDIAQUERIES ARE MIX BOTH PAGES */
 @media (min-width:1200px) {
     .h-50vh {
         min-height: 50vh;
@@ -57,4 +62,126 @@
         width: 50%;
         height: 100%;
     }
+
+    .g-item-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .g-item-2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .g-item-3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .g-item-4 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .g-item-5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .g-item-6 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+    .g-item-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .g-item-2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .g-item-3 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .g-item-4 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .g-item-5 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .g-item-6 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+}
+
+/*-------------------PERY-VENG-DOCUMENTATION-PAGE-CSS-------------------*/
+
+.d-grid {
+    padding: 21px;
+    background-color: #C4C4C4;
+    gap: 21px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+}
+
+.g-item {
+    overflow: hidden;
+}
+
+.g-item img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.mw-1096 {
+    max-width: 1100px;
+}
+
+.youtube-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.layer {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.carousel-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    max-width: 520px;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-logo {
+    position: absolute;
+    top: 5%;
+    left: 5%;
 }
