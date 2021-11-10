@@ -1,8 +1,8 @@
 @import url(./style.css);
 
-* {
+/* * {
     transition: all 200ms linear;
-}
+} */
 
 .document {
     background: white;

@@ -19,3 +19,29 @@
 .foot-line {
     border-top: 1px solid rgba(255, 255, 255, 0.36);
 }
+
+/* NEW-FOOTER-CSS-STARTS */
+.footer-social-links a svg {
+    transition: all 200ms ease-in-out;
+}
+
+.footer-social-links a:hover svg {
+    transform: scale(1.3);
+}
+
+.footer-bg-image {
+    background-image: url(../img/png/footer-bg-image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.mw-360 {
+    max-width: 360px;
+}
+
+.mw-299 {
+    max-width: 299px;
+}
