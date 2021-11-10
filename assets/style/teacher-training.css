@@ -21,6 +21,11 @@
 }
 
 /* BORDER CLASS END */
+/* ACCORDIN-BTN */
+.accordion-custom-btn {
+    left: -70PX;
+    top: -10PX;
+}
 
 @media (min-width: 992px) and (max-width: 1200px) {
     .bg-teacher-hero-img {
