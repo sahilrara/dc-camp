@@ -22,9 +22,21 @@
 
 /* BORDER CLASS END */
 /* ACCORDIN-BTN */
-.accordion-custom-btn {
-    left: -70PX;
-    top: -10PX;
+
+
+.accordion-buttons::after {
+    background-image: none;
+}
+
+.accordion-buttons:not(.collapsed)::after {
+    background-image: none;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
