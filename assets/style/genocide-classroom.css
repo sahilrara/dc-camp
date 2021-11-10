@@ -48,11 +48,11 @@
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url('../img/svg/Vector.png') !important;
+    background-image: url('../img/svg/Vector.png');
 }
 
 .accordion-button::after {
-    background-image: url('../img/svg/Vector.png') !important;
+    background-image: url('../img/svg/Vector.png');
 }
 
 .accordion-button:not(.collapsed) {
@@ -78,7 +78,7 @@
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url("../img/svg/accordian-arrow.svg") !important;
+    background-image: url("../img/svg/accordian-arrow.svg");
     transform: none;
 
     padding-right: 20px;
