@@ -1,0 +1,15 @@
+:root {
+  --font-28: 28px;
+}
+
+.fs-28 {
+  font-size: var(28px) !important;
+}
+
+.br-20 {
+  border-radius: 20px;
+}
+
+.img-shadow:hover {
+  box-shadow: 4px 7px 49px rgba(0, 0, 0, 0.11);
+}
