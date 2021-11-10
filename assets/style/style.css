@@ -1,36 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
 
 .ff-source {
-    font-family: 'Source Sans Pro',
-        sans-serif;
-    ;
+  font-family: 'Source Sans Pro',
+    sans-serif;
+  ;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',
-        sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',
+    sans-serif;
 }
 
 :root {
-    /* =============================FONT-SIZE============================= */
-    --font-14: 14px;
-    --font-15: 15px;
-    --font-16: 16px;
-    --font-18: 18px;
-    --font-20: 20px;
-    --font-35: 35px;
-    --font-48: 48px;
-    /* ========================================COLOR======================================== */
-    --color-black: #000000;
-    --color-light-black: #4D4D4D;
-    --color-light-black-07: #BCBBB9;
-    --color-white: #ffffff;
-    --color-red: #C2190E;
-    --color-4B4B4B: #4B4B4B;
-    --color-FAFAFA: #FAFAFA;
+  /* =============================FONT-SIZE============================= */
+  --font-14: 14px;
+  --font-15: 15px;
+  --font-16: 16px;
+  --font-18: 18px;
+  --font-20: 20px;
+  --font-35: 35px;
+  --font-48: 48px;
+  /* ========================================COLOR======================================== */
+  --color-black: #000000;
+  --color-light-black: #4D4D4D;
+  --color-light-black-07: #BCBBB9;
+  --color-white: #ffffff;
+  --color-red: #C2190E;
+  --color-4B4B4B: #4B4B4B;
+  --color-FAFAFA: #FAFAFA;
 
 }
 
@@ -38,27 +38,27 @@ body {
 /* Media-queries-start */
 
 @media (max-width:992px) {
-    :root {
-        --font-14: 13px;
-        --font-15: 14px;
-        --font-16: 15px;
-        --font-18: 16px;
-        --font-20: 19px;
-        --font-35: 24px;
-        --font-48: 30px;
-    }
+  :root {
+    --font-14: 13px;
+    --font-15: 14px;
+    --font-16: 15px;
+    --font-18: 16px;
+    --font-20: 19px;
+    --font-35: 24px;
+    --font-48: 30px;
+  }
 }
 
 @media (max-width:576px) {
-    :root {
-        --font-14: 12px;
-        --font-15: 13px;
-        --font-16: 14px;
-        --font-18: 15px;
-        --font-20: 18px;
-        --font-35: 23px;
-        --font-48: 28px;
-    }
+  :root {
+    --font-14: 12px;
+    --font-15: 13px;
+    --font-16: 14px;
+    --font-18: 15px;
+    --font-20: 18px;
+    --font-35: 23px;
+    --font-48: 28px;
+  }
 
 }
 
@@ -67,50 +67,50 @@ body {
 
 /*====================== FONT SIZE CLASS START====================== */
 .fs-14 {
-    font-size: var(--font-14) !important;
+  font-size: var(--font-14) !important;
 }
 
 .fs-15 {
-    font-size: var(--font-15) !important;
+  font-size: var(--font-15) !important;
 }
 
 .fs-16 {
-    font-size: var(--font-16) !important;
+  font-size: var(--font-16) !important;
 }
 
 .fs-18 {
-    font-size: var(--font-18) !important;
+  font-size: var(--font-18) !important;
 }
 
 .fs-20 {
-    font-size: var(--font-20) !important;
+  font-size: var(--font-20) !important;
 }
 
 .fs-35 {
-    font-size: var(--font-35) !important;
+  font-size: var(--font-35) !important;
 }
 
 .fs-48 {
-    font-size: var(--font-48) !important;
+  font-size: var(--font-48) !important;
 }
 
 /*====================== FONT SIZE CLASS END====================== */
 
 /*====================== FONT-weight SIZE CLASS START====================== */
 .fw-normal {
-    font-weight: 400 !important;
+  font-weight: 400 !important;
 }
 
 .fw-medium {
-    font-weight: 500 !important;
+  font-weight: 500 !important;
 }
 
 .fw-semibold {
-    font-weight: 600 !important;
+  font-weight: 600 !important;
 }
 
 .fw-bold {
-    font-weight: 700 !important;
+  font-weight: 700 !important;
 }
 
 /*====================== FONT-weight SIZE CLASS END====================== */
@@ -120,43 +120,43 @@ body {
 
 
 .text-white {
-    color: var(--color-white) !important;
+  color: var(--color-white) !important;
 }
 
 .text-black {
-    color: var(--color-black) !important;
+  color: var(--color-black) !important;
 }
 
 .text-red {
-    color: var(--color-red) !important;
+  color: var(--color-red) !important;
 }
 
 .text-4B4B4B {
-    color: var(--color-4B4B4B) !important;
+  color: var(--color-4B4B4B) !important;
 }
 
 .text-light-black {
-    color: var(--color-light-black) !important;
+  color: var(--color-light-black) !important;
 }
 
 .text-light-black-07 {
-    color: var(--color-light-black-07) !important;
+  color: var(--color-light-black-07) !important;
 }
 
 .bg-color-black {
-    background-color: var(--color-black) !important;
+  background-color: var(--color-black) !important;
 }
 
 .bg-color-white {
-    background-color: var(--color-white) !important;
+  background-color: var(--color-white) !important;
 }
 
 .bg-color-red {
-    background-color: var(--color-red) !important;
+  background-color: var(--color-red) !important;
 }
 
 .bg-color-FAFAFA {
-    background-color: var(--color-FAFAFA) !important;
+  background-color: var(--color-FAFAFA) !important;
 }
 
 
@@ -165,61 +165,61 @@ body {
 
 /*====================== COMMON TEXT CLASS START====================== */
 .main-heading {
-    font-family: 'Poppins',
-        sans-serif;
-    font-size: var(--font-48);
-    color: var(--color-black);
-    font-weight: 600;
+  font-family: 'Poppins',
+    sans-serif;
+  font-size: var(--font-48);
+  color: var(--color-black);
+  font-weight: 600;
 
 }
 
 .heading {
-    font-family: 'Poppins',
-        sans-serif;
-    font-size: var(--font-35);
-    color: var(--color-black);
-    font-weight: 600;
+  font-family: 'Poppins',
+    sans-serif;
+  font-size: var(--font-35);
+  color: var(--color-black);
+  font-weight: 600;
 }
 
 .sub-heading {
-    font-family: 'Poppins',
-        sans-serif;
-    font-size: var(--font-20);
-    color: var(--color-black);
-    font-weight: 400;
+  font-family: 'Poppins',
+    sans-serif;
+  font-size: var(--font-20);
+  color: var(--color-black);
+  font-weight: 400;
 }
 
 .main-para {
-    font-family: 'Poppins',
-        sans-serif;
-    font-size: var(--font-18);
-    color: var(--color-black);
-    font-weight: 600;
+  font-family: 'Poppins',
+    sans-serif;
+  font-size: var(--font-18);
+  color: var(--color-black);
+  font-weight: 600;
 }
 
 .para {
-    font-family: 'Poppins',
-        sans-serif;
-    font-size: var(--font-16);
-    color: var(--color-light-black-07);
-    font-weight: 400;
+  font-family: 'Poppins',
+    sans-serif;
+  font-size: var(--font-16);
+  color: var(--color-light-black-07);
+  font-weight: 400;
 }
 
 .sub-para {
-    font-family: 'Poppins',
-        sans-serif;
-    font-size: var(--font-15);
-    color: var(--color-light-black-07);
-    line-height: 27px;
-    font-weight: 400;
+  font-family: 'Poppins',
+    sans-serif;
+  font-size: var(--font-15);
+  color: var(--color-light-black-07);
+  line-height: 27px;
+  font-weight: 400;
 }
 
 .extra-small-text {
-    font-family: 'Poppins',
-        sans-serif;
-    font-size: var(--font-14);
-    color: var(--color-black);
-    font-weight: 400;
+  font-family: 'Poppins',
+    sans-serif;
+  font-size: var(--font-14);
+  color: var(--color-black);
+  font-weight: 400;
 }
 
 /*====================== COMMON TEXT CLASS START====================== */
@@ -228,14 +228,14 @@ body {
 
 
 @media (min-width: 1600px) {
-    .container-xll {
-        max-width: 1400px !important;
-    }
+  .container-xll {
+    max-width: 1400px !important;
+  }
 }
 
 
 @media (min-width: 576px) {
-    .w-sm-100 {
-        width: 100%;
-    }
+  .w-sm-100 {
+    width: 100%;
+  }
 }

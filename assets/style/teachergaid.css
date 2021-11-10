@@ -1,0 +1,23 @@
+:root {
+  --font-12: 12px;
+  --font-36: 36px;
+}
+
+.fs-12 {
+  font-size: var(--font-12) !important;
+}
+
+.fs-36 {
+  font-size: var(--font-36) !important;
+}
+
+.red-line {
+  display: block;
+  width: 8%;
+  height: 4px;
+  background-color: var(--color-red);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
