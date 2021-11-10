@@ -185,3 +185,12 @@
     top: 5%;
     left: 5%;
 }
+
+.my-60 {
+    margin: 60px 0;
+}
+
+section.position-relative p {
+    line-height: 180%;
+    margin: 0;
+}
