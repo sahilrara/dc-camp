@@ -1,0 +1,136 @@
+.hero-section-bg-img-1 {
+    background-image: url(../img/png/hero-section-background-image-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.hero-section-bg-img-1 nav {
+    border-radius: 10px;
+}
+
+.mx-586 {
+    max-width: 586px;
+}
+
+.leading-180 {
+    line-height: 180%;
+}
+
+.bottom-line {
+    border-bottom: 4px solid red;
+    margin-bottom: -2px;
+}
+
+.red-box {
+    position: absolute;
+    bottom: -8px !important;
+    left: 0 !important;
+    height: 80px;
+    width: 80px;
+    background-color: var(--color-red);
+}
+
+.red-box-2 {
+    height: 128px;
+    width: 128px;
+    background: var(--color-red);
+}
+
+.hero-section-bg-img-1 .row {
+    height: calc(100vh - 132px);
+}
+
+.side-red-line {
+    position: relative;
+}
+
+.side-red-line::after {
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    height: 1px;
+    width: 38px;
+    background-color: var(--color-red);
+    content: "";
+}
+
+.outside-lines::after {
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    height: 1px;
+    width: 38px;
+    background-color: var(--color-red);
+    content: "";
+}
+
+.outside-lines::before {
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    height: 1px;
+    width: 38px;
+    background-color: var(--color-red);
+    content: "";
+}
+
+.main-section-bg-img {
+    background-image: url("../img/png/main-section-background-image-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.newHomePageSectionImage-2 {
+    position: relative;
+    object-fit: cover;
+    display: block;
+    height: auto;
+    scroll-behavior: smooth;
+}
+
+.post {
+    position: absolute;
+    bottom: 21px !important;
+    left: 12.5px !important;
+    right: 12.5px;
+    display: inline-block;
+    max-width: 604px;
+    margin: 0 auto;
+}
+
+.posts {
+    outline: 1px solid rgba(0, 0, 0, 0.16) !important;
+    transition: all 200ms ease-in-out;
+    border: none !important;
+    cursor: pointer;
+}
+
+.posts p {
+    margin: 0 !important;
+}
+
+.posts:hover {
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.07);
+    outline: none !important;
+    border: none !important;
+}
+
+@media (min-width:992px) {
+    .red-box {
+        height: 120px;
+        width: 120px;
+    }
+
+    h1.leading-180 {
+        line-height: 133%;
+    }
+}
