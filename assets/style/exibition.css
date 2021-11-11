@@ -17,12 +17,14 @@
     background: var(--color-silver);
 }
 
-@media (min-width:1200px) {
-    .mb-xl-60 {
-        margin-bottom: 60px;
-    }
+.provincial-training-card {
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
 
-    .py-xl-60 {
-        padding: 60px 0;
-    }
+.provincial-training-card:hover {
+    box-shadow: 0px 8px 35px rgba(17, 17, 17, 0.16);
+
 }
