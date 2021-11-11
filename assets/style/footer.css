@@ -51,3 +51,23 @@
 .mw-299 {
     max-width: 299px;
 }
+
+/* NEW-FOOTER-2-CSS */
+
+.mw-375 {
+    max-width: 375px;
+}
+
+.new-navbar-text-link {
+    color: var(--color-black) !important;
+    font-size: var(--font-16) !important;
+    font-weight: 400 !important;
+    font-family: "Poppins";
+}
+
+.new-navbar-text-link.active {
+    color: var(--color-red) !important;
+    font-size: var(--font-16) !important;
+    font-weight: 600 !important;
+    font-family: "Poppins";
+}
