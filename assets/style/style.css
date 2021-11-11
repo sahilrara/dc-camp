@@ -32,6 +32,7 @@ body {
   --color-white: #ffffff;
   --color-red: #C2190E;
   --color-4B4B4B: #4B4B4B;
+  --color-838383: #838383;
   --color-FAFAFA: #FAFAFA;
 
 }
@@ -153,6 +154,10 @@ body {
 
 .text-light-black-07 {
   color: var(--color-light-black-07) !important;
+}
+
+.text-color-838383 {
+  color: var(--color-838383) !important;
 }
 
 .bg-color-black {
