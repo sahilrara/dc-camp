@@ -42,6 +42,10 @@
         min-height: 50vh;
     }
 
+    .my-xl-60 {
+        margin: 60px 0 !important;
+    }
+
     .image-section1 {
         position: absolute;
         top: 0;
@@ -184,4 +188,11 @@
     position: absolute;
     top: 5%;
     left: 5%;
+}
+
+section.position-relative p {
+    line-height: 180%;
+    margin: 0;
+    /* MAINE YE TEXT-ALIGN KO JUSTIFY KIYA HAI ISSE READABILITY INCREASE HUI HAI */
+    text-align: justify;
 }
