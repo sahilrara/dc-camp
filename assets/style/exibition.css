@@ -1,0 +1,28 @@
+/* EXIBITION PAGE  */
+
+.mw-1162 {
+    max-width: 1162px;
+}
+
+/* TRAINING PAGE */
+:root {
+    --color-silver: #e5e5e5;
+}
+
+.mw-1108 {
+    max-width: 1108px;
+}
+
+.background-color-silver {
+    background: var(--color-silver);
+}
+
+@media (min-width:1200px) {
+    .mb-xl-60 {
+        margin-bottom: 60px;
+    }
+
+    .py-xl-60 {
+        padding: 60px 0;
+    }
+}
