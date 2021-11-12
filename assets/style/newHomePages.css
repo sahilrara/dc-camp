@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+.ff-lora {
+    font-family: 'Lora',
+        serif;
+}
+
 .hero-section-bg-img-1 {
-    background-image: url(../img/png/hero-section-background-image-1.png);
+    background-image: url("../img/png/hero-section-background-image-1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -179,7 +186,6 @@
     z-index: 1;
     height: 100%;
     width: 100%;
-    /* transform: translate(-50%, -50%); */
 }
 
 .zoom-icon svg {
@@ -249,4 +255,51 @@
         grid-column: 2/3;
         grid-row: 2/3;
     }
+}
+
+/* --------------------------------NEW-HOME-PAGE-2-CSS-STARTS-FORM-HERE-------------------------------- */
+.blackquoteimage {
+    opacity: 0.2;
+}
+
+.documentation-section::before {
+    content: "";
+    height: 773px;
+    width: 100%;
+    position: absolute;
+    background-color: #F0F0F0;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.blackquote {
+    height: 131px 100% !important;
+    width: 176px 100% !important;
+    display: inline-block;
+}
+
+.daily-activities-img {
+    border-radius: 8px;
+}
+
+.h-cacl-100vh {
+    min-height: calc(100vh - 102px);
+    background: black;
+}
+
+.mw-858 {
+    max-width: 858px;
+}
+
+.mw-603 {
+    max-width: 603px;
+}
+
+.bown-arrow-2 {
+    max-width: 64px;
+    max-height: 64px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 21px 32px;
 }
