@@ -27,6 +27,26 @@
 /* BORDER CLASS END */
 /* ACCORDIN-BTN */
 
+.accordion-custom-btn::before {
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 20px;
+    content: "";
+    background-image: url(../img/svg/Group\ 27740.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    transition: all .2s ease-in-out;
+}
+
+.accordion-custom-btn:not(.collapsed)::before {
+    background-image: url(../img/svg/Group\ 27740.svg) !important;
+    transform: rotate(180deg);
+}
+
+.accordion-c.accordion-custom-btn:hover::before {
+    box-shadow: 2px 2px 2px black;
+}
 
 .accordion-buttons::after {
     background-image: none;
@@ -34,6 +54,12 @@
 
 .accordion-buttons:not(.collapsed)::after {
     background-image: none;
+
+}
+
+.accordion-buttons:not(.collapsed) {
+    box-shadow: none;
+
 }
 
 .accordion-button:focus {

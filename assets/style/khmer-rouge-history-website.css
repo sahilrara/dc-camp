@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
  .section-headings {
      font-size: var(--font-36);
      font-weight: 600;
@@ -194,6 +195,8 @@
      text-align: justify;
  }
 =======
+=======
+>>>>>>> 423fe9125b73cc088418cb06c78dfa0d3b3353f1
 * {
     transition: all 150ms ease-in-out !important;
 }
@@ -390,6 +393,79 @@ section.position-relative p {
     line-height: 180%;
     margin: 0;
     /* MAINE YE TEXT-ALIGN KO JUSTIFY KIYA HAI ISSE READABILITY INCREASE HUI HAI */
-    text-align: justify;
+
 }
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.previous_p {
+    z-index: 5;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    top: 42%;
+    left: -60px;
+}
+
+.next_c {
+    z-index: 5;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    top: 42%;
+    right: -60px;
+}
+
+.previous_p:hover {
+    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.09);
+}
+
+.next_c:hover {
+    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.09);
+}
+
+
+
+@media (max-width:992px) {
+    .previous_p img {
+        width: 50px;
+    }
+
+    .previous_p {
+        top: 42%;
+        left: -45px;
+    }
+
+    .next_c img {
+        width: 50px;
+    }
+
+    .next_c {
+        top: 42%;
+        right: -45px;
+    }
+}
+<<<<<<< HEAD
 >>>>>>> a2305ad1563d5806c8944715001fadee3f2602fb
+=======
+
+@media (max-width:576px) {
+    .previous_p img {
+        width: 40px;
+    }
+
+    .previous_p {
+        top: 42%;
+        left: 22px;
+    }
+
+    .next_c img {
+        width: 40px;
+    }
+
+    .next_c {
+        top: 42%;
+        right: 22px;
+    }
+}
+>>>>>>> 423fe9125b73cc088418cb06c78dfa0d3b3353f1
