@@ -1,3 +1,16 @@
+:root {
+    --font-28: 28px;
+    --color-silver: #e5e5e5;
+}
+
+.background-color-silver {
+    background: var(--color-silver);
+}
+
+.fs-28 {
+    font-size: var(--font-28) !important;
+}
+
 /* EXIBITION PAGE  */
 
 .mw-1162 {
@@ -5,17 +18,13 @@
 }
 
 /* TRAINING PAGE */
-:root {
-    --color-silver: #e5e5e5;
-}
+
 
 .mw-1108 {
     max-width: 1108px;
 }
 
-.background-color-silver {
-    background: var(--color-silver);
-}
+
 
 .provincial-training-card {
     background: var(--color-white);
@@ -26,5 +35,78 @@
 
 .provincial-training-card:hover {
     box-shadow: 0px 8px 35px rgba(17, 17, 17, 0.16);
+    border: 1px solid transparent;
+}
 
+/* HOME PAGE  */
+.opacity-07 {
+    opacity: 0.7 !important;
+}
+
+.mw-536 {
+    max-width: 536px;
+}
+
+.forum-card {
+    background: var(--color-silver);
+    border-radius: 16px;
+}
+
+.carousel-card {
+    background: var(--color-white);
+    border-radius: 16px;
+    transition: 0.3s ease;
+}
+
+.carousel-card:hover {
+    box-shadow: 0px 4px 56px rgba(0, 0, 0, 0.08);
+}
+
+.left-btn {
+    position: absolute;
+    left: -57px;
+    top: 244px;
+}
+
+.right-btn {
+    position: absolute;
+    right: -57px;
+    top: 244px;
+}
+
+.slick-slide {
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+/* FOURM PAGE */
+.mw-620 {
+    max-width: 620px;
+}
+
+.mw-590 {
+    max-width: 590px;
+}
+
+.fourm-bg-img {
+    background-image: url("../img/png/forum-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* MISSION PAGE */
+.mw-664 {
+    max-width: 664px;
+}
+
+/* VILLAGE HISTORY */
+.village-history-bg-img {
+    background-image: url("../img/png/VillageHistory-Hero-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mw-1097 {
+    max-width: 1097px;
 }
