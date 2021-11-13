@@ -8,23 +8,13 @@
 
 /* BG CLASS END */
 
-/* LINE-HIEGHT CLASS START */
-.line-h-166 {
-    line-height: 166%;
-}
-
-.line-height-154 {
-    line-height: 154%;
-}
-
-/* LINE-HIEGHT CLASS END */
-
 /* BORDER CLASS START */
 .border-top-4 {
     border-top: 4px solid var(--color-red);
 }
 
 /* BORDER CLASS END */
+
 /* ACCORDIN-BTN */
 
 .accordion-custom-btn::before {
@@ -69,7 +59,14 @@
     box-shadow: none;
 }
 
+/* ACCORDIN-BTN END */
 
+/* history-book-distribution css  START */
+#img-style {
+    list-style-image: url('../img/png/Vector\ \(3\).png');
+}
+
+/* history-book-distribution css  END */
 
 @media (min-width: 992px) and (max-width: 1200px) {
     .bg-teacher-hero-img {

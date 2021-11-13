@@ -1,41 +1,31 @@
- /* LINE-HIEGHT CLASS START */
- .line-h-166 {
-   line-height: 166%;
- }
+/* BORDER CLASS START */
+.border-top-4 {
+  border-top: 4px solid var(--color-red);
+}
 
- /* LINE-HIEGHT CLASS END */
+/* BORDER CLASS END */
 
- /* BORDER CLASS START */
- .border-top-4 {
-   border-top: 4px solid var(--color-red);
- }
+/* BG CLASS START */
+.bg-teacher-hero-img {
+  background-image: url("../img/png/about-us-hero-img.png");
+  height: 37vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 
- /* BORDER CLASS END */
- .cursor-pointer {
-   cursor: pointer;
- }
+/* BG CLASS END */
 
- /* BG CLASS START */
- .bg-teacher-hero-img {
-   background-image: url("../img/png/about-us-hero-img.png");
-   height: 37vh;
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
- }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .bg-teacher-hero-img {
+    height: 40vh;
+  }
 
- /* BG CLASS END */
+}
 
- @media (min-width: 992px) and (max-width: 1200px) {
-   .bg-teacher-hero-img {
-     height: 40vh;
-   }
+@media (max-width: 576px) {
 
- }
+  .bg-teacher-hero-img {
+    background-size: unset !important;
+  }
 
- @media (max-width: 576px) {
-
-   .bg-teacher-hero-img {
-     background-size: unset !important;
-   }
-
- }
+}

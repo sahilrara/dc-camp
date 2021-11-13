@@ -1,146 +1,137 @@
-:root {
-    --color-gray: #bfbfbf;
-}
+ /* BG CLASS START */
+ .bg-genocide-hero-img {
+     background-image: url("../img/png/Group\ 27670.png");
+     height: 37vh;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+ }
 
-/* BG CLASS START */
-.bg-genocide-hero-img {
-    background-image: url("../img/png/Group\ 27670.png");
-    height: 37vh;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+ /* BG CLASS END */
 
-/* BG CLASS END */
+ /* BORDER CLASS START */
+ .border-top-4 {
+     border-top: 4px solid var(--color-red);
+ }
 
-/* LINE-HIEGHT CLASS START */
-.line-h-166 {
-    line-height: 166%;
-}
+ /* BORDER CLASS END */
 
-.line-height-154 {
-    line-height: 154%;
-}
+ /* ACCORDIN-BTN START */
+ .accordion-buttons::after {
+     background-image: none !important;
+ }
 
-/* LINE-HIEGHT CLASS END */
-
-/* BORDER CLASS START */
-.border-top-4 {
-    border-top: 4px solid var(--color-red);
-}
-
-/* BORDER CLASS END */
-/* ACCORDIN-BTN */
+ .accordion-buttons:not(.collapsed)::after {
+     background-image: none !important;
+ }
 
 
-.accordion-buttons::after {
-    background-image: none !important;
-}
+ .accordion-button:focus {
+     z-index: 3;
+     border-color: none;
+     outline: 0;
+     box-shadow: none;
+ }
 
-.accordion-buttons:not(.collapsed)::after {
-    background-image: none !important;
-}
+ .accordion-button:not(.collapsed)::after {
+     background-image: url('../img/svg/Vector.png');
+ }
 
-.accordion-button:focus {
-    z-index: 3;
-    border-color: none;
-    outline: 0;
-    box-shadow: none;
-}
+ .accordion-button::after {
+     background-image: url('../img/svg/Vector.png');
+ }
 
-.accordion-button:not(.collapsed)::after {
-    background-image: url('../img/svg/Vector.png');
-}
+ .accordion-button:not(.collapsed) {
+     color: var(--text-black);
+ }
 
-.accordion-button::after {
-    background-image: url('../img/svg/Vector.png');
-}
+ .accordion-bg-color {
+     background: #FFFFFF;
+     border: 1px solid rgba(0, 0, 0, 0.15);
+     box-sizing: border-box;
+     box-shadow: 0px 0px 0px rgba(54, 48, 116, 0.3);
+     border-radius: 20px;
+ }
 
-.accordion-button:not(.collapsed) {
-    color: var(--text-black);
-}
+ .border-bottom-1 {
+     border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
+ }
 
-.accordion-bg-color {
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    box-sizing: border-box;
-    box-shadow: 0px 0px 0px rgba(54, 48, 116, 0.3);
-    border-radius: 20px;
-}
+ /* ACCORDION 2 */
+ .accordion-button:not(.collapsed) {
+     color: var(--color-black);
+     background-color: var(--color-white);
+ }
 
-.border-bottom-1 {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
-}
+ .accordion-button:not(.collapsed)::after {
+     background-image: url("../img/svg/accordian-arrow.svg");
+     transform: none;
 
-/* ACCORDION 2 */
-.accordion-button:not(.collapsed) {
-    color: var(--color-black);
-    background-color: var(--color-white);
-}
+     padding-right: 20px;
 
-.accordion-button:not(.collapsed)::after {
-    background-image: url("../img/svg/accordian-arrow.svg");
-    transform: none;
+ }
 
-    padding-right: 20px;
+ .accordion-button::after {
+     background-image: url("../img/svg/accordian-down-arrow.svg");
+     margin-left: 61px;
+     padding-right: 20px;
+ }
 
-}
+ .accordion-button {
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
 
-.accordion-button::after {
-    background-image: url("../img/svg/accordian-down-arrow.svg");
-    margin-left: 61px;
-    padding-right: 20px;
-}
+ }
 
-.accordion-button {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+ .ps-38 {
+     padding-left: 38px;
+ }
 
-}
+ .border-bottom {
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
 
-.ps-38 {
-    padding-left: 38px;
-}
+ }
 
-.border-bottom {
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+ .accordion-box {
+     background: var(--color-white);
+     border: 1px solid rgba(0, 0, 0, 0.15);
+     border-radius: 20px;
+     box-shadow: 0px 0px 0px rgba(54, 48, 116, 0.3);
+ }
 
-}
+ .accordion-line {
+     border-bottom: 1px solid var(--color-gray);
+ }
 
-.accordion-box {
-    background: var(--color-white);
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-    box-shadow: 0px 0px 0px rgba(54, 48, 116, 0.3);
-}
+ /* ACCORDIN-BTN END */
 
-.accordion-line {
-    border-bottom: 1px solid var(--color-gray);
-}
 
-@media (min-width: 992px) and (max-width: 1200px) {
-    .bg-genocide-hero-img {
-        height: 40vh;
-    }
+ /* MEDIA QURIES START */
+ @media (min-width: 992px) and (max-width: 1200px) {
+     .bg-genocide-hero-img {
+         height: 40vh;
+     }
 
-}
+ }
 
-@media (max-width: 576px) {
+ @media (max-width: 576px) {
 
-    .bg-genocide-hero-img {
-        background-size: unset !important;
-    }
+     .bg-genocide-hero-img {
+         background-size: unset !important;
+     }
 
-    .accordion-button:not(.collapsed)::after {
-        margin-left: 16px;
-    }
+     .accordion-button:not(.collapsed)::after {
+         margin-left: 16px;
+     }
 
-    .accordion-button::after {
-        margin-left: 16px;
-    }
+     .accordion-button::after {
+         margin-left: 16px;
+     }
 
-    .ps-38 {
-        padding-left: 16px;
-    }
+     .ps-38 {
+         padding-left: 16px;
+     }
 
-}
+ }
+
+ /* MEDIA QURIES END */

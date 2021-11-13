@@ -22,6 +22,7 @@ body {
   --font-16: 16px;
   --font-18: 18px;
   --font-20: 20px;
+  --font-28: 28px;
   --font-35: 35px;
   --font-36: 36px;
   --font-48: 48px;
@@ -34,7 +35,7 @@ body {
   --color-4B4B4B: #4B4B4B;
   --color-838383: #838383;
   --color-FAFAFA: #FAFAFA;
-
+  --color-gray: #bfbfbf;
 }
 
 
@@ -93,6 +94,10 @@ body {
 
 .fs-20 {
   font-size: var(--font-20) !important;
+}
+
+.fs-28 {
+  font-size: var(--font-28) !important;
 }
 
 .fs-35 {
@@ -240,10 +245,14 @@ body {
 }
 
 /*====================== COMMON TEXT CLASS START====================== */
+/* OPACITY START */
 .opacity-07 {
   opacity: 0.7;
 }
 
+/* OPACITY END */
+
+/* ACCORDIAN START */
 .accordion-custom-btn::before {
   flex-shrink: 0;
   width: 2rem;
@@ -286,7 +295,31 @@ body {
   box-shadow: none;
 }
 
+/* ACCORDIAN END */
 
+.br-20 {
+  border-radius: 20px !important;
+}
+
+/* cursor-pointer CLASS START */
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* cursor-pointer CLASS END */
+
+/* LINE-HIEGHT CLASS START */
+.line-h-166 {
+  line-height: 166%;
+}
+
+.line-height-154 {
+  line-height: 154%;
+}
+
+
+/* LINE-HIEGHT CLASS END */
 @media (min-width: 1600px) {
   .container-xll {
     max-width: 1400px !important;
