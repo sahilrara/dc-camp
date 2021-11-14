@@ -43,13 +43,20 @@
     opacity: 0.7 !important;
 }
 
-.mw-536 {
-    max-width: 536px;
-}
+
 
 .forum-card {
     background: var(--color-silver);
     border-radius: 16px;
+    transition: 0.3s ease;
+}
+
+.forum-card:hover {
+    filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.08));
+}
+
+.border-bottom-4 {
+    border-bottom: 4px solid var(--color-red);
 }
 
 .carousel-card {
@@ -84,21 +91,23 @@
     }
 }
 
-@media (min-width:992px) and (max-width:1199.98px) {
+@media (min-width:992px) and (max-width:1299.98px) {
     .left-btn {
         position: absolute;
-        left: -45px;
+        left: -24px;
         top: 244px;
+        z-index: 2;
     }
 
     .right-btn {
         position: absolute;
-        right: -45px;
+        right: -24px;
         top: 244px;
+        z-index: 2;
     }
 }
 
-@media (min-width:1200px) {
+@media (min-width:1300px) {
     .left-btn {
         position: absolute;
         left: -45px;
@@ -111,6 +120,12 @@
         top: 244px;
     }
 
+}
+
+@media (min-width:992px) {
+    .mw-536 {
+        max-width: 536px;
+    }
 }
 
 /* FOURM PAGE */
