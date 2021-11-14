@@ -1,3 +1,4 @@
+/* ACCORDIAN CLASS START */
 .accordion-item:first-of-type {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -8,10 +9,6 @@
   border: 1px solid #00000020;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-}
-
-.br-20 {
-  border-radius: 20px;
 }
 
 .accordion-button::after {
@@ -25,3 +22,5 @@
   background-image: url('../img/png/Vector\ \(4\).png');
   transform: rotate(-180deg);
 }
+
+/* ACCORDIAN CLASS END */

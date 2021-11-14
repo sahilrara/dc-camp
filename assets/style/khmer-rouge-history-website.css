@@ -1,471 +1,266 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
- .section-headings {
-     font-size: var(--font-36);
-     font-weight: 600;
-     color: var(--color-black);
-     position: relative;
- }
-
- .section-headings::before {
-     content: "";
-     background-color: var(--color-red);
-     height: 4px;
-     width: 88px;
-     position: absolute;
-     left: 0;
-     top: -10px;
- }
-
- .section-button {
-     font-size: var(--font-15);
-     font-weight: 600;
-     background-color: var(--color-red);
-     padding: 6px 22px;
-     border-radius: 17.5px;
-     border: none;
-     color: var(--color-FAFAFA);
-     transition: all 200ms ease-in-out;
- }
-
- .section-button:hover {
-     outline: 2px solid var(--color-red) !important;
-     background-color: var(--color-FAFAFA);
-     color: var(--color-red);
- }
-
- /* AND MEDIAQUERIES ARE MIX BOTH PAGES */
- @media (min-width:1200px) {
-     .h-50vh {
-         min-height: 50vh;
-     }
-
-     .my-xl-60 {
-         margin: 60px 0 !important;
-     }
-
-     .image-section1 {
-         position: absolute;
-         top: 0;
-         right: 0;
-         width: 50%;
-         height: 100%;
-     }
-
-     .section-image {
-         position: absolute;
-         height: 100%;
-     }
-
-     .image-section2 {
-         position: absolute;
-         top: 0;
-         left: 0;
-         width: 50%;
-         height: 100%;
-     }
-
-     .g-item-1 {
-         grid-column: 1/2;
-         grid-row: 1/2;
-     }
-
-     .g-item-2 {
-         grid-column: 2/3;
-         grid-row: 1/2;
-     }
-
-     .g-item-3 {
-         grid-column: 3/4;
-         grid-row: 1/2;
-     }
-
-     .g-item-4 {
-         grid-column: 1/2;
-         grid-row: 2/3;
-     }
-
-     .g-item-5 {
-         grid-column: 2/3;
-         grid-row: 2/3;
-     }
-
-     .g-item-6 {
-         grid-column: 3/4;
-         grid-row: 2/3;
-     }
- }
-
- @media (min-width:768px) and (max-width:1199px) {
-     .g-item-1 {
-         grid-column: 1/2;
-         grid-row: 1/2;
-     }
-
-     .g-item-2 {
-         grid-column: 2/3;
-         grid-row: 1/2;
-     }
-
-     .g-item-3 {
-         grid-column: 1/2;
-         grid-row: 2/3;
-     }
-
-     .g-item-4 {
-         grid-column: 2/3;
-         grid-row: 2/3;
-     }
-
-     .g-item-5 {
-         grid-column: 1/2;
-         grid-row: 3/4;
-     }
-
-     .g-item-6 {
-         grid-column: 2/3;
-         grid-row: 3/4;
-     }
- }
-
- /*-------------------PERY-VENG-DOCUMENTATION-PAGE-CSS-------------------*/
-
- .d-grid {
-     padding: 21px;
-     background-color: #C4C4C4;
-     gap: 21px;
-     display: grid;
-     grid-template-columns: auto;
-     grid-template-rows: auto;
-
- }
-
- .g-item {
-     overflow: hidden;
- }
-
- .g-item img:hover {
-     transform: scale(1.1);
-     cursor: pointer;
- }
-
- .mw-1096 {
-     max-width: 1100px;
- }
-
- .youtube-icon {
-     position: absolute;
-     left: 50%;
-     top: 50%;
-     transform: translate(-50%, -50%);
-     z-index: 2;
- }
-
- .layer {
-     position: absolute;
-     display: inline-block;
-     top: 0;
-     left: 0;
-     right: 0;
-     bottom: 0;
-     z-index: 2;
- }
-
- .carousel-bg-img {
-     position: absolute;
-     top: 0;
-     left: 0;
-     right: 0;
-     object-fit: cover;
-     max-width: 520px;
-     width: 100%;
-     height: 100%;
- }
-
- .carousel-logo {
-     position: absolute;
-     top: 5%;
-     left: 5%;
- }
-
- section.position-relative p {
-     line-height: 166%;
-     margin: 0;
-     /* MAINE YE TEXT-ALIGN KO JUSTIFY KIYA HAI ISSE READABILITY INCREASE HUI HAI */
-     text-align: justify;
- }
-=======
-=======
->>>>>>> 423fe9125b73cc088418cb06c78dfa0d3b3353f1
-* {
-    transition: all 150ms ease-in-out !important;
-}
-
-.section-headings {
-    font-size: var(--font-36);
-    font-weight: 600;
-    color: var(--color-black);
-    position: relative;
-}
-
-.section-headings::before {
-    content: "";
-    background-color: var(--color-red);
-    height: 4px;
-    width: 88px;
-    position: absolute;
-    left: 0;
-    top: -10px;
-}
-
-.section-button {
-    font-size: var(--font-15);
-    font-weight: 600;
-    background-color: var(--color-red);
-    padding: 6px 22px;
-    border-radius: 17.5px;
-    border: none;
-    color: var(--color-FAFAFA);
-    transition: all 200ms ease-in-out;
-}
-
-.section-button:hover {
-    outline: 2px solid var(--color-red) !important;
-    background-color: var(--color-FAFAFA);
-    color: var(--color-red);
-}
-
-/* AND MEDIAQUERIES ARE MIX BOTH PAGES */
-@media (min-width:1200px) {
-    .h-50vh {
-        min-height: 50vh;
-    }
-
-    .my-xl-60 {
-        margin: 60px 0 !important;
-    }
-
-    .py-xl-60 {
-        padding: 60px 0 !important;
-    }
-
-    .image-section1 {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 50%;
-        height: 100%;
-    }
-
-    .section-image {
-        position: absolute;
-        height: 100%;
-    }
-
-    .image-section2 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 50%;
-        height: 100%;
-    }
-
-    .g-item-1 {
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-
-    .g-item-2 {
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-
-    .g-item-3 {
-        grid-column: 3/4;
-        grid-row: 1/2;
-    }
-
-    .g-item-4 {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-
-    .g-item-5 {
-        grid-column: 2/3;
-        grid-row: 2/3;
-    }
-
-    .g-item-6 {
-        grid-column: 3/4;
-        grid-row: 2/3;
-    }
-}
-
-@media (min-width:768px) and (max-width:1199px) {
-    .g-item-1 {
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-
-    .g-item-2 {
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-
-    .g-item-3 {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-
-    .g-item-4 {
-        grid-column: 2/3;
-        grid-row: 2/3;
-    }
-
-    .g-item-5 {
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-
-    .g-item-6 {
-        grid-column: 2/3;
-        grid-row: 3/4;
-    }
-}
-
-/*-------------------PERY-VENG-DOCUMENTATION-PAGE-CSS-------------------*/
-
-.d-grid {
-    padding: 21px;
-    background-color: #C4C4C4;
-    gap: 21px;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-
-}
-
-.g-item {
-    overflow: hidden;
-}
-
-.g-item img:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
-.youtube-icon {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-}
-
-.layer {
-    position: absolute;
-    display: inline-block;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-}
-
-.carousel-bg-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    object-fit: cover;
-    max-width: 520px;
-    width: 100%;
-    height: 100%;
-}
-
-.carousel-logo {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-}
-
-section.position-relative p {
-    line-height: 180%;
-    margin: 0;
-    /* MAINE YE TEXT-ALIGN KO JUSTIFY KIYA HAI ISSE READABILITY INCREASE HUI HAI */
-
-}
-
-.accordion-button:not(.collapsed) {
-    box-shadow: none;
-}
-
-.previous_p {
-    z-index: 5;
-    border-radius: 50%;
-    transition: all 0.4s ease;
-    top: 42%;
-    left: -60px;
-}
-
-.next_c {
-    z-index: 5;
-    border-radius: 50%;
-    transition: all 0.4s ease;
-    top: 42%;
-    right: -60px;
-}
-
-.previous_p:hover {
-    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.09);
-}
-
-.next_c:hover {
-    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.09);
-}
-
-
-
-@media (max-width:992px) {
-    .previous_p img {
-        width: 50px;
-    }
-
-    .previous_p {
-        top: 42%;
-        left: -45px;
-    }
-
-    .next_c img {
-        width: 50px;
-    }
-
-    .next_c {
-        top: 42%;
-        right: -45px;
-    }
-}
-<<<<<<< HEAD
->>>>>>> a2305ad1563d5806c8944715001fadee3f2602fb
-=======
-
-@media (max-width:576px) {
-    .previous_p img {
-        width: 40px;
-    }
-
-    .previous_p {
-        top: 42%;
-        left: 22px;
-    }
-
-    .next_c img {
-        width: 40px;
-    }
-
-    .next_c {
-        top: 42%;
-        right: 22px;
-    }
-}
->>>>>>> 423fe9125b73cc088418cb06c78dfa0d3b3353f1
+  .section-headings {
+      font-size: var(--font-36);
+      font-weight: 600;
+      color: var(--color-black);
+      position: relative;
+  }
+
+  .section-headings::before {
+      content: "";
+      background-color: var(--color-red);
+      height: 4px;
+      width: 88px;
+      position: absolute;
+      left: 0;
+      top: -10px;
+  }
+
+  .section-button {
+      font-size: var(--font-15);
+      font-weight: 600;
+      background-color: var(--color-red);
+      padding: 6px 22px;
+      border-radius: 17.5px;
+      border: none;
+      color: var(--color-FAFAFA);
+      transition: all 200ms ease-in-out;
+  }
+
+  .section-button:hover {
+      outline: 2px solid var(--color-red) !important;
+      background-color: var(--color-FAFAFA);
+      color: var(--color-red);
+  }
+
+  /* AND MEDIAQUERIES ARE MIX BOTH PAGES */
+  @media (min-width:1200px) {
+      .h-50vh {
+          min-height: 50vh;
+      }
+
+      .my-xl-60 {
+          margin: 60px 0 !important;
+      }
+
+      .image-section1 {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 50%;
+          height: 100%;
+      }
+
+      .section-image {
+          position: absolute;
+          height: 100%;
+      }
+
+      .image-section2 {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 50%;
+          height: 100%;
+      }
+
+      .g-item-1 {
+          grid-column: 1/2;
+          grid-row: 1/2;
+      }
+
+      .g-item-2 {
+          grid-column: 2/3;
+          grid-row: 1/2;
+      }
+
+      .g-item-3 {
+          grid-column: 3/4;
+          grid-row: 1/2;
+      }
+
+      .g-item-4 {
+          grid-column: 1/2;
+          grid-row: 2/3;
+      }
+
+      .g-item-5 {
+          grid-column: 2/3;
+          grid-row: 2/3;
+      }
+
+      .g-item-6 {
+          grid-column: 3/4;
+          grid-row: 2/3;
+      }
+  }
+
+  @media (min-width:768px) and (max-width:1199px) {
+      .g-item-1 {
+          grid-column: 1/2;
+          grid-row: 1/2;
+      }
+
+      .g-item-2 {
+          grid-column: 2/3;
+          grid-row: 1/2;
+      }
+
+      .g-item-3 {
+          grid-column: 1/2;
+          grid-row: 2/3;
+      }
+
+      .g-item-4 {
+          grid-column: 2/3;
+          grid-row: 2/3;
+      }
+
+      .g-item-5 {
+          grid-column: 1/2;
+          grid-row: 3/4;
+      }
+
+      .g-item-6 {
+          grid-column: 2/3;
+          grid-row: 3/4;
+      }
+  }
+
+  /*-------------------PERY-VENG-DOCUMENTATION-PAGE-CSS-------------------*/
+
+  .d-grid {
+      padding: 21px;
+      background-color: #C4C4C4;
+      gap: 21px;
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+
+  }
+
+  .g-item {
+      overflow: hidden;
+  }
+
+  .g-item img:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+  }
+
+  .mw-1096 {
+      max-width: 1100px;
+  }
+
+  .youtube-icon {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+  }
+
+  .layer {
+      position: absolute;
+      display: inline-block;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+  }
+
+  .carousel-bg-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      object-fit: cover;
+      max-width: 520px;
+      width: 100%;
+      height: 100%;
+  }
+
+  .carousel-logo {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+  }
+
+  section.position-relative p {
+      line-height: 166%;
+      margin: 0;
+      /* MAINE YE TEXT-ALIGN KO JUSTIFY KIYA HAI ISSE READABILITY INCREASE HUI HAI */
+      /* text-align: justify; */
+  }
+
+
+
+  .accordion-button:not(.collapsed) {
+      box-shadow: none;
+  }
+
+  .previous_p {
+      z-index: 5;
+      border-radius: 50%;
+      transition: all 0.4s ease;
+      top: 42%;
+      left: -60px;
+  }
+
+  .next_c {
+      z-index: 5;
+      border-radius: 50%;
+      transition: all 0.4s ease;
+      top: 42%;
+      right: -60px;
+  }
+
+  .previous_p:hover {
+      box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.09);
+  }
+
+  .next_c:hover {
+      box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.09);
+  }
+
+
+
+  @media (max-width:992px) {
+      .previous_p img {
+          width: 50px;
+      }
+
+      .previous_p {
+          top: 42%;
+          left: -45px;
+      }
+
+      .next_c img {
+          width: 50px;
+      }
+
+      .next_c {
+          top: 42%;
+          right: -45px;
+      }
+  }
+
+  @media (max-width:576px) {
+      .previous_p img {
+          width: 40px;
+      }
+
+      .previous_p {
+          top: 42%;
+          left: 22px;
+      }
+
+      .next_c img {
+          width: 40px;
+      }
+
+      .next_c {
+          top: 42%;
+          right: 22px;
+      }
+  }

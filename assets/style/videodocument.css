@@ -1,9 +1,5 @@
 @import url(./style.css);
 
-/* * {
-    transition: all 200ms linear;
-} */
-
 .document {
     background: white;
     border: 1px solid rgba(0, 0, 0, 0.15);

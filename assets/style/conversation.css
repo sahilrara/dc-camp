@@ -1,0 +1,25 @@
+.conversation-section-post img {
+    border-radius: 16px;
+}
+
+.conversation-input {
+    border: 1px solid var(--color-red);
+    padding: 10px;
+}
+
+.conversation-input input::placeholder {
+    color: var(--color-light-black);
+    background: transparent;
+}
+
+.conversation-input input {
+    background: transparent;
+}
+
+.conversation-input span {
+    cursor: pointer;
+}
+
+/* p.fw-normal.fs-16.text-light-black {
+    text-align: justify;
+} */
