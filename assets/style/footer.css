@@ -44,9 +44,13 @@
     width: 100%;
 }
 
-.mw-360 {
-    max-width: 360px;
+@media (min-width:1200px) {
+    .mw-360 {
+        max-width: 360px;
+    }
 }
+
+
 
 .mw-299 {
     max-width: 299px;
@@ -70,4 +74,10 @@
     font-size: var(--font-16) !important;
     font-weight: 600 !important;
     font-family: "Poppins";
+}
+
+@media (min-width:576px) and (max-width:1200px) {
+    .footer-map-image-1 img {
+        width: 386px !important;
+    }
 }
