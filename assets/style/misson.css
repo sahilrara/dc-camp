@@ -1,0 +1,13 @@
+.min-h-200 {
+  min-height: 200px;
+}
+
+.min-h-155 {
+  min-height: 155px;
+}
+
+@media (max-width:768px) {
+  .youtube-icons {
+    max-width: 50px;
+  }
+}

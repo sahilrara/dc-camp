@@ -43,13 +43,24 @@
     opacity: 0.7 !important;
 }
 
-.mw-536 {
-    max-width: 536px;
+::marker {
+    color: var(--color-red);
+    border-radius: 50%;
+
 }
 
 .forum-card {
     background: var(--color-silver);
     border-radius: 16px;
+    transition: 0.3s ease;
+}
+
+.forum-card:hover {
+    filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.08));
+}
+
+.border-bottom-4 {
+    border-bottom: 4px solid var(--color-red);
 }
 
 .carousel-card {
@@ -70,6 +81,7 @@
 }
 
 /* CAROUSEL MEDIA QUERRY  */
+
 @media (min-width:768px) and (max-width:991.98px) {
     .left-btn {
         position: absolute;
@@ -84,43 +96,72 @@
     }
 }
 
-@media (min-width:992px) and (max-width:1199.98px) {
+@media (min-width:992px) and (max-width:1299.98px) {
     .left-btn {
         position: absolute;
-        left: -45px;
+        left: -60px;
         top: 244px;
+        z-index: 2;
     }
 
     .right-btn {
         position: absolute;
-        right: -45px;
+        right: -60px;
         top: 244px;
+        z-index: 2;
     }
 }
 
-@media (min-width:1200px) {
+@media (min-width:1300px) {
     .left-btn {
         position: absolute;
-        left: -45px;
+        left: -60px;
         top: 244px;
     }
 
     .right-btn {
         position: absolute;
-        right: -45px;
+        right: -60px;
         top: 244px;
     }
+
+}
+
+@media (min-width:992px) {
+    .mw-459 {
+        max-width: 459px;
+    }
+
+    .mw-500 {
+        max-width: 500px;
+    }
+
+    .mw-512 {
+        max-width: 512px;
+    }
+
+    .mw-536 {
+        max-width: 536px;
+    }
+
+    .mw-590 {
+        max-width: 590px;
+    }
+
+    .mw-600 {
+        max-width: 600px;
+    }
+
+    .mw-620 {
+        max-width: 620px;
+    }
+
 
 }
 
 /* FOURM PAGE */
-.mw-620 {
-    max-width: 620px;
-}
 
-.mw-590 {
-    max-width: 590px;
-}
+
 
 .fourm-bg-img {
     background-image: url("../img/png/forum-hero.png");
@@ -142,8 +183,4 @@
 
 .mw-1097 {
     max-width: 1097px;
-}
-
-.mw-600 {
-    max-width: 600px;
 }
