@@ -1,3 +1,9 @@
  .img-shadow:hover {
    box-shadow: 4px 7px 49px rgba(0, 0, 0, 0.11);
  }
+
+ @media (max-width:400px) {
+   .second-edition {
+     width: 320px;
+   }
+ }
