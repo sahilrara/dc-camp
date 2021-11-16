@@ -81,6 +81,7 @@
 }
 
 /* CAROUSEL MEDIA QUERRY  */
+
 @media (min-width:768px) and (max-width:991.98px) {
     .left-btn {
         position: absolute;
@@ -98,14 +99,14 @@
 @media (min-width:992px) and (max-width:1299.98px) {
     .left-btn {
         position: absolute;
-        left: -24px;
+        left: -60px;
         top: 244px;
         z-index: 2;
     }
 
     .right-btn {
         position: absolute;
-        right: -24px;
+        right: -60px;
         top: 244px;
         z-index: 2;
     }
@@ -114,21 +115,21 @@
 @media (min-width:1300px) {
     .left-btn {
         position: absolute;
-        left: -45px;
+        left: -60px;
         top: 244px;
     }
 
     .right-btn {
         position: absolute;
-        right: -45px;
+        right: -60px;
         top: 244px;
     }
 
 }
 
 @media (min-width:992px) {
-    .mw-536 {
-        max-width: 536px;
+    .mw-459 {
+        max-width: 459px;
     }
 
     .mw-500 {
@@ -139,19 +140,28 @@
         max-width: 512px;
     }
 
-    .mw-459 {
-        max-width: 459px;
+    .mw-536 {
+        max-width: 536px;
     }
+
+    .mw-590 {
+        max-width: 590px;
+    }
+
+    .mw-600 {
+        max-width: 600px;
+    }
+
+    .mw-620 {
+        max-width: 620px;
+    }
+
+
 }
 
 /* FOURM PAGE */
-.mw-620 {
-    max-width: 620px;
-}
 
-.mw-590 {
-    max-width: 590px;
-}
+
 
 .fourm-bg-img {
     background-image: url("../img/png/forum-hero.png");
@@ -173,8 +183,4 @@
 
 .mw-1097 {
     max-width: 1097px;
-}
-
-.mw-600 {
-    max-width: 600px;
 }
