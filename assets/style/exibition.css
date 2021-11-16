@@ -203,9 +203,21 @@
 
 }
 
+@media (max-width:768px) {
+    .img-h-sm-65 {
+        height: 65vh !important;
+    }
+}
+
 @media (max-width: 576px) {
 
     .bg-village-home-history {
         background-size: unset !important;
     }
+
+    .img-h-39 {
+        height: 39vh !important;
+    }
+
+
 }
