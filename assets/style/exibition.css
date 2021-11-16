@@ -43,7 +43,11 @@
     opacity: 0.7 !important;
 }
 
+::marker {
+    color: var(--color-red);
+    border-radius: 50%;
 
+}
 
 .forum-card {
     background: var(--color-silver);
@@ -125,6 +129,18 @@
 @media (min-width:992px) {
     .mw-536 {
         max-width: 536px;
+    }
+
+    .mw-500 {
+        max-width: 500px;
+    }
+
+    .mw-512 {
+        max-width: 512px;
+    }
+
+    .mw-459 {
+        max-width: 459px;
     }
 }
 
