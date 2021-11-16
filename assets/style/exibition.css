@@ -82,16 +82,17 @@
 
 /* CAROUSEL MEDIA QUERRY  */
 
+
 @media (min-width:768px) and (max-width:991.98px) {
     .left-btn {
         position: absolute;
-        left: -38px;
+        left: -55px;
         top: 330px;
     }
 
     .right-btn {
         position: absolute;
-        right: -38px;
+        right: -55px;
         top: 330px;
     }
 }
@@ -99,14 +100,14 @@
 @media (min-width:992px) and (max-width:1299.98px) {
     .left-btn {
         position: absolute;
-        left: -60px;
+        left: -35px;
         top: 244px;
         z-index: 2;
     }
 
     .right-btn {
         position: absolute;
-        right: -60px;
+        right: -35px;
         top: 244px;
         z-index: 2;
     }
@@ -160,8 +161,6 @@
 }
 
 /* FOURM PAGE */
-
-
 
 .fourm-bg-img {
     background-image: url("../img/png/forum-hero.png");
